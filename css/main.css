@@ -522,3 +522,20 @@ svg { display: block; }
   .hero-screen-stack { width: 34%; transform: scale(.42); }
   [dir="rtl"] .hero-screen-stack { transform: scale(.42); }
 }
+
+/* Desktop layout pass: centered 1200px canvas, readable copy, and isolated Hero layers. */
+@media (min-width: 1021px) {
+  .page-shell { width: 100%; max-width: 1200px; margin-inline: auto; }
+  .hero-grid { display: flex; justify-content: space-between; align-items: center; gap: clamp(48px, 6vw, 86px); }
+  .hero-copy { flex: 1 1 0; min-width: 0; }
+  .hero-visual { flex: 0 1 560px; width: min(560px, 48vw); min-width: 0; }
+  .hero-description { color: #4b5563; font-size: 15px; line-height: 1.75; }
+  .hero-proof p, .hero-caption { color: #4b5563; font-size: 15px; line-height: 1.5; }
+  .hero-bottom-line { color: #4b5563; font-size: 12px; }
+  .hero-browser-body { grid-template-columns: minmax(0, 1.25fr) minmax(170px, .75fr); }
+  .hero-browser-copy { max-width: 100%; }
+  .hero-browser-copy p { max-width: 145px; color: #d1d5db; font-size: 12px; }
+  .hero-screen-stack { transform: translateX(55px) scale(.68); }
+  [dir="rtl"] .q-hero-title { line-height: 1.2; letter-spacing: -.02em; }
+  [dir="rtl"] .hero-browser-copy h2 { line-height: 1.2; letter-spacing: -.02em; }
+}
