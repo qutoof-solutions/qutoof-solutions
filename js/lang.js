@@ -16,11 +16,8 @@ export const copy = {
       subtitle: "A portfolio of thoughtful digital experiences",
       description: "A living portfolio of websites, portfolios and landing pages—made to give ideas a sharp digital presence.",
       viewWork: "Explore the work", contact: "Contact Us", proof: "Ten live demos. Three directions. One point of view.",
-      metric: "live demo projects", caption: "A real look at the work.", scroll: "SCROLL TO EXPLORE",
-      note: "BUILT TO BE REMEMBERED", previewAlt: "Qutoof portfolio visual",
-      previewLinkAria: "Open the Qutoof portfolio visual",
-      previewLabel: "PORTFOLIO DEMO", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "Open live site ↗",
-      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "SELECTED WORK", browserTitle: "Make the first impression feel inevitable.", browserBody: "Portfolios, websites and landing pages with a clear visual point of view.", previewStat: "responsive by design", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
+      scroll: "SCROLL TO EXPLORE", note: "BUILT TO BE REMEMBERED",
+      previewStat: "responsive by design", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
     },
     services: {
       kicker: "THE WORK", title: "Different formats.<br /><span>One considered standard.</span>",
@@ -89,11 +86,8 @@ export const copy = {
       subtitle: "بورتفوليو من التجارب الرقمية المدروسة",
       description: "بورتفوليو حي يضم مواقع وبورتفوليوهات وصفحات هبوط تمنح كل فكرة حضورًا رقميًا واضحًا ومميزًا.",
       viewWork: "استكشف الأعمال", contact: "تواصل معنا", proof: "10 نماذج مباشرة. ثلاثة اتجاهات. ورؤية واحدة.",
-      metric: "مشاريع تجريبية مباشرة", caption: "لقطة حقيقية من الأعمال.", scroll: "مرّر لاكتشاف المزيد",
-      note: "مصمم ليبقى في الذاكرة", previewAlt: "التكوين البصري لبورتفوليو قطوف",
-      previewLinkAria: "افتح التكوين البصري لبورتفوليو قطوف",
-      previewLabel: "بورتفوليو تجريبي", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "افتح الموقع ↗",
-      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "أعمال مختارة", browserTitle: "اجعل الانطباع الأول حتميًا.", browserBody: "بورتفوليوهات ومواقع وصفحات هبوط برؤية بصرية واضحة.", previewStat: "متجاوب من الأساس", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
+      scroll: "مرّر لاكتشاف المزيد", note: "مصمم ليبقى في الذاكرة",
+      previewStat: "متجاوب من الأساس", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
     },
     services: {
       kicker: "الأعمال", title: "أشكال مختلفة.<br /><span>ومعيار واحد.</span>",
