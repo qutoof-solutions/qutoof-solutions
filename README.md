@@ -13,6 +13,13 @@ npm run preview
 
 يفتح خادم التطوير على المنفذ 3000. ملفات الإنتاج الثابتة في `dist/`، وملف بيان المسارات المصدر في `public/manus-routes.json`.
 
+## النشر عبر GitHub Pages
+
+- مصدر Pages مضبوط على GitHub Actions؛ لا تختَر `main /` لأن ذلك يخدم ملفات Vite المصدرية بدل الموقع المبني.
+- workflow في `.github/workflows/deploy-pages.yml` يثبت الاعتماديات، ويبني `dist/` عند كل دفع إلى `main` ثم ينشره.
+- يُستخدم `GITHUB_PAGES=true` أثناء البناء لضبط بادئة الموقع إلى `/qutoof-solutions/`، كما تستخدم صور المعرض `import.meta.env.BASE_URL`.
+- رابط الموقع: <https://qutoof-solutions.github.io/qutoof-solutions/>.
+
 ## بنية الملفات
 
 - `assets/images/logo.png` — الشعار المرفق كما هو.
