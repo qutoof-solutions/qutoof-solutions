@@ -7,7 +7,7 @@ export const copy = {
     a11y: {
       skip: "Skip to content", language: "Choose language", menu: "Open navigation menu",
       menuClose: "Close navigation menu", home: "Qutoof Solutions home", primaryNav: "Primary navigation",
-      heroVisual: "Youssef El-Sayed portfolio preview", workFilters: "Filter portfolio projects"
+      heroVisual: "Qutoof portfolio visual", workFilters: "Filter portfolio projects"
     },
     nav: { services: "Services", work: "Selected work", process: "Process", approach: "Our approach", contact: "Ask on WhatsApp" },
     hero: {
@@ -17,8 +17,8 @@ export const copy = {
       description: "A living portfolio of websites, portfolios and landing pages—made to give ideas a sharp digital presence.",
       viewWork: "Explore the work", whatsapp: "Start a conversation", proof: "Ten live demos. Three directions. One point of view.",
       metric: "live demo projects", caption: "A real look at the work.", scroll: "SCROLL TO EXPLORE",
-      note: "BUILT TO BE REMEMBERED", previewAlt: "Youssef El-Sayed portfolio website preview",
-      previewLinkAria: "Open the Youssef El-Sayed portfolio",
+      note: "BUILT TO BE REMEMBERED", previewAlt: "Qutoof portfolio visual",
+      previewLinkAria: "Open the Qutoof portfolio visual",
       previewLabel: "PORTFOLIO DEMO", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "Open live site ↗",
       boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "SELECTED WORK", browserTitle: "Make the first impression feel inevitable.", browserBody: "Portfolios, websites and landing pages with a clear visual point of view.", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
     },
@@ -80,7 +80,7 @@ export const copy = {
     a11y: {
       skip: "انتقل إلى المحتوى", language: "اختر اللغة", menu: "افتح قائمة التنقل",
       menuClose: "أغلق قائمة التنقل", home: "الصفحة الرئيسية لقطوف للحلول الرقمية", primaryNav: "التنقل الرئيسي",
-      heroVisual: "معاينة بورتفوليو يوسف السيد", workFilters: "تصفية نماذج الأعمال"
+      heroVisual: "التكوين البصري لبورتفوليو قطوف", workFilters: "تصفية نماذج الأعمال"
     },
     nav: { services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "استفسر عبر واتساب" },
     hero: {
@@ -90,8 +90,8 @@ export const copy = {
       description: "بورتفوليو حي يضم مواقع وبورتفوليوهات وصفحات هبوط تمنح كل فكرة حضورًا رقميًا واضحًا ومميزًا.",
       viewWork: "استكشف الأعمال", whatsapp: "ابدأ محادثة", proof: "10 نماذج مباشرة. ثلاثة اتجاهات. ورؤية واحدة.",
       metric: "مشاريع تجريبية مباشرة", caption: "لقطة حقيقية من الأعمال.", scroll: "مرّر لاكتشاف المزيد",
-      note: "مصمم ليبقى في الذاكرة", previewAlt: "معاينة موقع بورتفوليو يوسف السيد",
-      previewLinkAria: "افتح بورتفوليو يوسف السيد",
+      note: "مصمم ليبقى في الذاكرة", previewAlt: "التكوين البصري لبورتفوليو قطوف",
+      previewLinkAria: "افتح التكوين البصري لبورتفوليو قطوف",
       previewLabel: "بورتفوليو تجريبي", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "افتح الموقع ↗",
       boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "أعمال مختارة", browserTitle: "اجعل الانطباع الأول حتميًا.", browserBody: "بورتفوليوهات ومواقع وصفحات هبوط برؤية بصرية واضحة.", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
     },
