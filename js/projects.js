@@ -3,21 +3,21 @@ const projectImage = (filename) => `${import.meta.env.BASE_URL}assets/images/por
 export const projects = [
   {
     category: "portfolio",
-    title: { en: "Youssef El-Sayed Portfolio", ar: "بورتفوليو يوسف السيد" },
+    title: { en: "Youssef El-Sayed Portfolio", ar: "Youssef El-Sayed Portfolio" },
     description: { en: "A visual portfolio for creative work and personal presentation.", ar: "بورتفوليو بصري لعرض الأعمال الإبداعية وتقديم الهوية الشخصية." },
     image: projectImage("youssef-el-sayed.webp"),
     url: "https://youssef-el-sayed-portfolio.pages.dev/"
   },
   {
     category: "portfolio",
-    title: { en: "Rihal Portfolio", ar: "بورتفوليو رحال" },
+    title: { en: "Rihal Portfolio", ar: "Rihal Portfolio" },
     description: { en: "A story-led portfolio experience for a travel and creative brand.", ar: "تجربة بورتفوليو قصصية لعلامة في السفر والمحتوى الإبداعي." },
     image: projectImage("rihal-portfolio.png"),
     url: "https://rihal-portfolio.pages.dev/"
   },
   {
     category: "portfolio",
-    title: { en: "Kareem Portfolio", ar: "بورتفوليو كريم" },
+    title: { en: "Kareem Portfolio", ar: "Kareem Portfolio" },
     description: { en: "A polished portfolio built to make selected work feel memorable.", ar: "بورتفوليو مصقول يجعل الأعمال المختارة أكثر حضورًا وتذكرًا." },
     image: projectImage("kareem-portfolio.webp"),
     url: "https://qutoof-solutions.github.io/kareem-portfolio/"
@@ -31,14 +31,14 @@ export const projects = [
   },
   {
     category: "website",
-    title: { en: "Ayada Dental Clinic", ar: "عيادة أيادا للأسنان" },
+    title: { en: "Ayada Dental Clinic", ar: "Ayada Dental Clinic" },
     description: { en: "A trustworthy clinic website designed around clarity and action.", ar: "موقع عيادة موثوق مصمم حول الوضوح وسهولة اتخاذ الخطوة التالية." },
     image: projectImage("care-dental-center.webp"),
     url: "https://ayada-clinic-demo.pages.dev/"
   },
   {
     category: "website",
-    title: { en: "Yaser Aladawy Law Office", ar: "مكتب ياسر العدوي للمحاماة" },
+    title: { en: "Yaser Aladawy Law Office", ar: "Yaser Aladawy Law Office" },
     description: { en: "A professional legal website with an authoritative, focused tone.", ar: "موقع قانوني احترافي بنبرة موثوقة ومركزة." },
     image: projectImage("yaser-aladawy.png"),
     url: "https://qutoof-solutions.github.io/yaser-aladawy/"
@@ -52,21 +52,21 @@ export const projects = [
   },
   {
     category: "landing",
-    title: { en: "AURELLE Luxury Perfume", ar: "AURELLE للعطور الفاخرة" },
+    title: { en: "AURELLE Luxury Perfume", ar: "AURELLE Luxury Perfume" },
     description: { en: "A focused product landing page for a luxury fragrance launch.", ar: "صفحة هبوط مركزة لإطلاق عطر فاخر." },
     image: projectImage("aurelle-no-01.webp"),
     url: "https://vanta-time-demo.pages.dev/"
   },
   {
     category: "landing",
-    title: { en: "Légende Noire Perfume", ar: "عطر Légende Noire" },
+    title: { en: "Légende Noire Perfume", ar: "Légende Noire Perfume" },
     description: { en: "An editorial perfume landing page with a strong sense of mood.", ar: "صفحة هبوط تحريرية لعطر بإحساس بصري ومزاج قوي." },
     image: projectImage("legende-noire.webp"),
     url: "https://perfume-landing-8nd.pages.dev/"
   },
   {
     category: "landing",
-    title: { en: "Store One — Sneakers Product", ar: "Store One — منتج أحذية رياضية" },
+    title: { en: "Store One — Sneakers Product", ar: "Store One — Sneakers Product" },
     description: { en: "A product-first landing page built to make one offer feel irresistible.", ar: "صفحة هبوط تركز على المنتج وتجعل العرض الواحد أكثر جاذبية." },
     image: projectImage("store-one-sneakers.png"),
     url: "https://landing-page-new-27z.pages.dev/"

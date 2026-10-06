@@ -19,7 +19,8 @@ export const copy = {
       metric: "live demo projects", caption: "A real look at the work.", scroll: "SCROLL TO EXPLORE",
       note: "BUILT TO BE REMEMBERED", previewAlt: "Youssef El-Sayed portfolio website preview",
       previewLinkAria: "Open the Youssef El-Sayed portfolio",
-      previewLabel: "PORTFOLIO DEMO", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "Open live site ↗"
+      previewLabel: "PORTFOLIO DEMO", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "Open live site ↗",
+      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "SELECTED WORK", browserTitle: "Make the first impression feel inevitable.", browserBody: "Portfolios, websites and landing pages with a clear visual point of view.", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
     },
     services: {
       kicker: "THE WORK", title: "Different formats.<br /><span>One considered standard.</span>",
@@ -91,7 +92,8 @@ export const copy = {
       metric: "مشاريع تجريبية مباشرة", caption: "لقطة حقيقية من الأعمال.", scroll: "مرّر لاكتشاف المزيد",
       note: "مصمم ليبقى في الذاكرة", previewAlt: "معاينة موقع بورتفوليو يوسف السيد",
       previewLinkAria: "افتح بورتفوليو يوسف السيد",
-      previewLabel: "بورتفوليو تجريبي", previewTitle: "بورتفوليو يوسف السيد", previewCta: "افتح الموقع ↗"
+      previewLabel: "بورتفوليو تجريبي", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "افتح الموقع ↗",
+      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "أعمال مختارة", browserTitle: "اجعل الانطباع الأول حتميًا.", browserBody: "بورتفوليوهات ومواقع وصفحات هبوط برؤية بصرية واضحة.", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
     },
     services: {
       kicker: "الأعمال", title: "أشكال مختلفة.<br /><span>ومعيار واحد.</span>",
