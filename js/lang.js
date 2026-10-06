@@ -11,7 +11,7 @@ export const copy = {
     },
     nav: { services: "Services", work: "Selected work", process: "Process", approach: "Our approach", contact: "Ask on WhatsApp" },
     hero: {
-      eyebrow: "DIGITAL EXPERIENCES, BUILT WITH INTENT",
+      status: "Available for new projects", eyebrow: "DIGITAL EXPERIENCES, BUILT WITH INTENT",
       title: "I build digital work<br />that feels <span>unmistakable.</span>",
       subtitle: "A portfolio of thoughtful digital experiences",
       description: "A living portfolio of websites, portfolios and landing pages—made to give ideas a sharp digital presence.",
@@ -20,7 +20,7 @@ export const copy = {
       note: "BUILT TO BE REMEMBERED", previewAlt: "Qutoof portfolio visual",
       previewLinkAria: "Open the Qutoof portfolio visual",
       previewLabel: "PORTFOLIO DEMO", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "Open live site ↗",
-      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "SELECTED WORK", browserTitle: "Make the first impression feel inevitable.", browserBody: "Portfolios, websites and landing pages with a clear visual point of view.", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
+      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "SELECTED WORK", browserTitle: "Make the first impression feel inevitable.", browserBody: "Portfolios, websites and landing pages with a clear visual point of view.", previewStat: "responsive by design", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
     },
     services: {
       kicker: "THE WORK", title: "Different formats.<br /><span>One considered standard.</span>",
@@ -84,7 +84,7 @@ export const copy = {
     },
     nav: { services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "استفسر عبر واتساب" },
     hero: {
-      eyebrow: "تجارب رقمية تُبنى بقصد",
+      status: "متاح لاستقبال مشاريع جديدة", eyebrow: "تجارب رقمية تُبنى بقصد",
       title: "أبني أعمالًا رقمية<br />لها <span>حضور لا يُنسى.</span>",
       subtitle: "بورتفوليو من التجارب الرقمية المدروسة",
       description: "بورتفوليو حي يضم مواقع وبورتفوليوهات وصفحات هبوط تمنح كل فكرة حضورًا رقميًا واضحًا ومميزًا.",
@@ -93,7 +93,7 @@ export const copy = {
       note: "مصمم ليبقى في الذاكرة", previewAlt: "التكوين البصري لبورتفوليو قطوف",
       previewLinkAria: "افتح التكوين البصري لبورتفوليو قطوف",
       previewLabel: "بورتفوليو تجريبي", previewTitle: "Youssef El-Sayed Portfolio", previewCta: "افتح الموقع ↗",
-      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "أعمال مختارة", browserTitle: "اجعل الانطباع الأول حتميًا.", browserBody: "بورتفوليوهات ومواقع وصفحات هبوط برؤية بصرية واضحة.", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
+      boardLabel: "QUTOOF / SELECTED WORK", browserKicker: "أعمال مختارة", browserTitle: "اجعل الانطباع الأول حتميًا.", browserBody: "بورتفوليوهات ومواقع وصفحات هبوط برؤية بصرية واضحة.", previewStat: "متجاوب من الأساس", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
     },
     services: {
       kicker: "الأعمال", title: "أشكال مختلفة.<br /><span>ومعيار واحد.</span>",
