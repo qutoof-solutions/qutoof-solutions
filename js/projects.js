@@ -3,65 +3,72 @@ const projectImage = (filename) => `${import.meta.env.BASE_URL}assets/images/por
 export const projects = [
   {
     category: "portfolio",
-    title: { en: "Luna Makeup Artist", ar: "Luna Makeup Artist" },
-    description: { en: "Bridal makeup artist portfolio", ar: "بورتفوليو مكياج العروس والمناسبات" },
-    image: projectImage("luna-makeup-artist.webp"),
-    url: "https://luna-makeup-artist.pages.dev/"
-  },
-  {
-    category: "portfolio",
-    title: { en: "Kareem Portfolio", ar: "كريم الشريف" },
-    description: { en: "Interior design portfolio", ar: "بورتفوليو تصميم داخلي" },
-    image: projectImage("kareem-portfolio.webp"),
-    url: "https://kram2556-dot.github.io/kareem-portfolio/"
-  },
-  {
-    category: "portfolio",
-    title: { en: "Youssef El-Sayed", ar: "يوسف السيد" },
-    description: { en: "Graphic design and visual identity portfolio", ar: "بورتفوليو تصميم جرافيك وهوية بصرية" },
+    title: { en: "Youssef El-Sayed Portfolio", ar: "بورتفوليو يوسف السيد" },
+    description: { en: "A visual portfolio for creative work and personal presentation.", ar: "بورتفوليو بصري لعرض الأعمال الإبداعية وتقديم الهوية الشخصية." },
     image: projectImage("youssef-el-sayed.webp"),
     url: "https://youssef-el-sayed-portfolio.pages.dev/"
   },
   {
-    category: "landing",
-    title: { en: "Légende Noire", ar: "Légende Noire" },
-    description: { en: "Arabic fragrance product landing page", ar: "صفحة هبوط عربية لمنتج عطر" },
-    image: projectImage("legende-noire.webp"),
-    url: "https://perfume-landing-8nd.pages.dev/"
+    category: "portfolio",
+    title: { en: "Rihal Portfolio", ar: "بورتفوليو رحال" },
+    description: { en: "A story-led portfolio experience for a travel and creative brand.", ar: "تجربة بورتفوليو قصصية لعلامة في السفر والمحتوى الإبداعي." },
+    image: projectImage("rihal-portfolio.png"),
+    url: "https://rihal-portfolio.pages.dev/"
   },
   {
-    category: "landing",
-    title: { en: "Yasser Al-Adawi Law Office", ar: "مكتب ياسر العدوي" },
-    description: { en: "Law office landing page", ar: "صفحة هبوط لمكتب محاماة" },
-    image: projectImage("yasser-law-office.webp"),
-    url: "https://kram2556-dot.github.io/luna-master/"
-  },
-  {
-    category: "landing",
-    title: { en: "AURELLE No. 01", ar: "AURELLE No. 01" },
-    description: { en: "Perfume product landing page", ar: "صفحة هبوط لمنتج عطر" },
-    image: projectImage("aurelle-no-01.webp"),
-    url: "https://vanta-time-demo.pages.dev/"
+    category: "portfolio",
+    title: { en: "Kareem Portfolio", ar: "بورتفوليو كريم" },
+    description: { en: "A polished portfolio built to make selected work feel memorable.", ar: "بورتفوليو مصقول يجعل الأعمال المختارة أكثر حضورًا وتذكرًا." },
+    image: projectImage("kareem-portfolio.webp"),
+    url: "https://qutoof-solutions.github.io/kareem-portfolio/"
   },
   {
     category: "website",
-    title: { en: "Care Dental Center", ar: "مركز Care Dental Center" },
-    description: { en: "Dental clinic website", ar: "موقع لمركز أسنان" },
+    title: { en: "Design Studio", ar: "Design Studio" },
+    description: { en: "A premium studio website with a clear visual point of view.", ar: "موقع استوديو احترافي بهوية بصرية واضحة وحضور مميز." },
+    image: projectImage("design-studio.png"),
+    url: "https://design-studio-one.pages.dev/"
+  },
+  {
+    category: "website",
+    title: { en: "Ayada Dental Clinic", ar: "عيادة أيادا للأسنان" },
+    description: { en: "A trustworthy clinic website designed around clarity and action.", ar: "موقع عيادة موثوق مصمم حول الوضوح وسهولة اتخاذ الخطوة التالية." },
     image: projectImage("care-dental-center.webp"),
     url: "https://ayada-clinic-demo.pages.dev/"
   },
   {
     category: "website",
-    title: { en: "Decor Studio", ar: "Decor Studio" },
-    description: { en: "Interior design studio website", ar: "موقع لاستوديو تصميم داخلي" },
-    image: projectImage("decor-studio.webp"),
-    url: "https://decor-studio-78m.pages.dev/"
+    title: { en: "Yaser Aladawy Law Office", ar: "مكتب ياسر العدوي للمحاماة" },
+    description: { en: "A professional legal website with an authoritative, focused tone.", ar: "موقع قانوني احترافي بنبرة موثوقة ومركزة." },
+    image: projectImage("yaser-aladawy.png"),
+    url: "https://qutoof-solutions.github.io/yaser-aladawy/"
   },
   {
     category: "website",
-    title: { en: "Rihal Travel Studio", ar: "Rihal Travel Studio" },
-    description: { en: "Travel studio website", ar: "موقع لاستوديو رحلات" },
-    image: projectImage("rihal-travel-studio.webp"),
-    url: "https://studio-kayan-design.pages.dev/"
+    title: { en: "Luna Beauty Studio", ar: "Luna Beauty Studio" },
+    description: { en: "A beauty brand website that puts atmosphere and services first.", ar: "موقع لعلامة تجميل يضع الأجواء والخدمات في الواجهة." },
+    image: projectImage("luna-makeup-artist.webp"),
+    url: "https://luna-makeup-artist.pages.dev/"
+  },
+  {
+    category: "landing",
+    title: { en: "AURELLE Luxury Perfume", ar: "AURELLE للعطور الفاخرة" },
+    description: { en: "A focused product landing page for a luxury fragrance launch.", ar: "صفحة هبوط مركزة لإطلاق عطر فاخر." },
+    image: projectImage("aurelle-no-01.webp"),
+    url: "https://vanta-time-demo.pages.dev/"
+  },
+  {
+    category: "landing",
+    title: { en: "Légende Noire Perfume", ar: "عطر Légende Noire" },
+    description: { en: "An editorial perfume landing page with a strong sense of mood.", ar: "صفحة هبوط تحريرية لعطر بإحساس بصري ومزاج قوي." },
+    image: projectImage("legende-noire.webp"),
+    url: "https://perfume-landing-8nd.pages.dev/"
+  },
+  {
+    category: "landing",
+    title: { en: "Store One — Sneakers Product", ar: "Store One — منتج أحذية رياضية" },
+    description: { en: "A product-first landing page built to make one offer feel irresistible.", ar: "صفحة هبوط تركز على المنتج وتجعل العرض الواحد أكثر جاذبية." },
+    image: projectImage("store-one-sneakers.png"),
+    url: "https://landing-page-new-27z.pages.dev/"
   }
 ];

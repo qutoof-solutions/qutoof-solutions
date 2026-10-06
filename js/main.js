@@ -49,14 +49,14 @@ function setProjectFilter(filter = activeProjectFilter) {
 
 function renderProjects(language) {
   const host = document.getElementById("portfolio-grid");
-  host.innerHTML = projects.map((project) => {
+  host.innerHTML = projects.map((project, index) => {
     const title = project.title[language];
     const description = project.description[language];
     const category = copy[language].work.categories[project.category];
     return `
       <a class="project-card q-card reveal-child" data-category="${safeText(project.category)}" href="${safeText(project.url)}" target="_blank" rel="noopener noreferrer" aria-label="${safeText(copy[language].work.open)}: ${safeText(title)}">
         <span class="project-image"><img src="${safeText(project.image)}" alt="${safeText(description)}" width="1120" height="800" loading="lazy" decoding="async" /><span class="project-open-label">${safeText(copy[language].work.open)} <span aria-hidden="true">↗</span></span></span>
-        <span class="project-meta"><span><span class="project-category">${safeText(category)}</span><strong>${safeText(title)}</strong><span class="project-description">${safeText(description)}</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+        <span class="project-meta"><span><span class="project-category"><b>${String(index + 1).padStart(2, "0")}</b>${safeText(category)}</span><strong>${safeText(title)}</strong><span class="project-description">${safeText(description)}</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
       </a>`;
   }).join("");
   setProjectFilter(activeProjectFilter);
