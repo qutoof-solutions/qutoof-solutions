@@ -6,7 +6,8 @@ import { projects } from "./projects.js";
 console.log('qutoof solutions v1.0 - loaded');
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const WHATSAPP_PHONE = "9665XXXXXXXX";
+// Egypt number normalized for wa.me: +20 100 278 5919.
+const WHATSAPP_PHONE = "201002785919";
 const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=مرحبا%20قطوف`;
 let activeProjectFilter = "all";
 

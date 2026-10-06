@@ -182,6 +182,9 @@ svg { display: block; }
 .footer-links strong { margin-bottom: 3px; color: #7c8983; font-size: 8px; font-weight: 750; letter-spacing: .18em; }
 .footer-links a { color: #c0c7c3; font-size: 9px; transition: color .2s ease; }
 .footer-links a:hover, .back-top:hover { color: var(--green); }
+.facebook-link { display: inline-flex; align-items: center; gap: 7px; }
+.facebook-link svg { width: 15px; height: 15px; fill: currentColor; }
+.facebook-link:hover svg { color: #1877f2; }
 .footer-bottom { display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; gap: 15px; padding-block: 15px 18px; border-top: 1px solid rgba(255,255,255,.1); color: #77817c; font-size: 8px; }
 .footer-bottom > span:nth-child(2) { text-align: center; }
 .back-top { display: inline-flex; align-items: center; justify-content: flex-end; gap: 8px; color: #c0c7c3; transition: color .2s ease; }

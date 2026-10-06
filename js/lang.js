@@ -67,7 +67,7 @@ export const copy = {
     },
     footer: {
       tagline: "Good stores make good things happen.", explore: "EXPLORE", sayHello: "SAY HELLO",
-      whatsapp: "WhatsApp", startProject: "Ask about a project", location: "Thoughtfully made in Saudi Arabia.",
+      whatsapp: "WhatsApp", startProject: "Ask about a project", facebook: "Facebook", facebookAria: "Qutoof Solutions on Facebook", location: "Thoughtfully made in Saudi Arabia.",
       top: "Back to top", disclaimer: "Portfolio links are demo websites. No unsupported sales claims or client testimonials are shown."
     }
   },
@@ -139,7 +139,7 @@ export const copy = {
     },
     footer: {
       tagline: "متاجر أجمل. وأعمال تزدهر.", explore: "اكتشف", sayHello: "تواصل معنا",
-      whatsapp: "واتساب", startProject: "استفسر عن مشروعك", location: "صُنع بعناية في المملكة العربية السعودية.",
+      whatsapp: "واتساب", startProject: "استفسر عن مشروعك", facebook: "فيسبوك", facebookAria: "صفحة قطوف للحلول الرقمية على فيسبوك", location: "صُنع بعناية في المملكة العربية السعودية.",
       top: "العودة للأعلى", disclaimer: "الروابط المعروضة لمواقع ديمو؛ لا نعرض أرقام مبيعات أو شهادات عملاء غير موثقة."
     }
   }
