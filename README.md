@@ -16,7 +16,9 @@ npm run preview
 ## بنية الملفات
 
 - `assets/images/logo.png` — الشعار المرفق كما هو.
+- `assets/images/logo-transparent.png` — نسخة PNG شفافة مقصوصة للشعار؛ الأصل محفوظ دون تعديل.
 - `public/assets/images/logo.png` — نسخة الشعار التي ينسخها Vite إلى إصدار الإنتاج.
+- `public/assets/images/logo-transparent.png` — النسخة الشفافة المستخدمة في هيدر الموقع.
 - `public/assets/images/portfolio/` — صور معاينة حقيقية لصفحات الديمو التسع.
 - `css/main.css` — لوحة العلامة والتصميم المتجاوب وRTL.
 - `css/animations.css` — الكشف والحركة.
