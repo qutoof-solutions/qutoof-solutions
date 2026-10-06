@@ -1,0 +1,20 @@
+.reveal, .reveal-child { opacity: 0; transform: translateY(18px); }
+.reveal.is-visible, .reveal-child.is-visible { opacity: 1; transform: translateY(0); }
+
+@keyframes wa-pulse {
+  0% { opacity: .76; transform: scale(.85); }
+  75%, 100% { opacity: 0; transform: scale(1.48); }
+}
+
+@keyframes float-soft {
+  0%, 100% { transform: translateY(0) rotate(-2.2deg); }
+  50% { transform: translateY(-7px) rotate(-1.6deg); }
+}
+
+.hero-visual .browser-card { animation: float-soft 8s ease-in-out infinite; }
+.hero-visual .hero-stamp { animation: float-soft 7s ease-in-out -1.8s infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal-child { opacity: 1; transform: none; }
+  .hero-visual .browser-card, .hero-visual .hero-stamp, .floating-pulse { animation: none; }
+}
