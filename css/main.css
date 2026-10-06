@@ -494,3 +494,27 @@ svg { display: block; }
   .hero-float strong { font-size: 12px; }
   .hero-float span { font-size: 6px; }
 }
+
+/* Mobile RTL safety: keep the Hero copy readable and contain the decorative screens. */
+@media (max-width: 780px) {
+  .hero-section { overflow: clip; }
+  .hero-grid { display: flex; flex-direction: column; min-width: 0; }
+  .hero-copy, .hero-visual { width: 100%; min-width: 0; }
+  .hero-copy { order: 1; }
+  .hero-visual { order: 2; }
+  .hero-board { max-width: 100%; min-width: 0; overflow: hidden; }
+  .hero-browser-body { position: relative; display: block; min-width: 0; }
+  .hero-browser-copy { position: relative; z-index: 3; width: 73%; max-width: 73%; }
+  .hero-browser-copy h2 { max-width: 100%; overflow-wrap: anywhere; }
+  .hero-screen-stack { position: absolute; right: -4px; bottom: -12px; width: 42%; height: 135px; transform: scale(.52); transform-origin: bottom right; opacity: .92; }
+  [dir="rtl"] .hero-screen-stack { right: auto; left: -4px; transform-origin: bottom left; }
+  [dir="rtl"] .hero-browser-copy { width: 73%; max-width: 73%; text-align: right; }
+}
+@media (max-width: 520px) {
+  .hero-browser-copy { width: 78%; max-width: 78%; }
+  [dir="rtl"] .hero-browser-copy { width: 78%; max-width: 78%; }
+  .hero-browser-copy h2 { font-size: 18px; line-height: 1.1; }
+  .hero-browser-copy p { max-width: 170px; }
+  .hero-screen-stack { width: 34%; transform: scale(.42); }
+  [dir="rtl"] .hero-screen-stack { transform: scale(.42); }
+}
