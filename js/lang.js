@@ -15,7 +15,7 @@ export const copy = {
       title: "I build digital work<br />that feels <span>unmistakable.</span>",
       subtitle: "A portfolio of thoughtful digital experiences",
       description: "A living portfolio of websites, portfolios and landing pages—made to give ideas a sharp digital presence.",
-      viewWork: "Explore the work", contact: "Contact Us", proof: "Ten live demos. Three directions. One point of view.",
+      viewWork: "Explore the work", contact: "Contact Us", proof: "live demos. Three directions. One point of view.",
       scroll: "SCROLL TO EXPLORE", note: "BUILT TO BE REMEMBERED",
       previewStat: "responsive by design", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
     },
@@ -85,7 +85,7 @@ export const copy = {
       title: "أبني أعمالًا رقمية<br />لها <span>حضور لا يُنسى.</span>",
       subtitle: "بورتفوليو من التجارب الرقمية المدروسة",
       description: "بورتفوليو حي يضم مواقع وبورتفوليوهات وصفحات هبوط تمنح كل فكرة حضورًا رقميًا واضحًا ومميزًا.",
-      viewWork: "استكشف الأعمال", contact: "تواصل معنا", proof: "10 نماذج مباشرة. ثلاثة اتجاهات. ورؤية واحدة.",
+      viewWork: "استكشف الأعمال", contact: "تواصل معنا", proof: "نماذج مباشرة. ثلاثة اتجاهات. ورؤية واحدة.",
       scroll: "مرّر لاكتشاف المزيد", note: "مصمم ليبقى في الذاكرة",
       previewStat: "متجاوب من الأساس", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
     },
