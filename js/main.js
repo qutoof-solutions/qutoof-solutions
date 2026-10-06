@@ -1,12 +1,15 @@
 import Lenis from "lenis";
 import { animate, inView, stagger } from "motion";
 import { applyLanguage, copy, getCurrentLanguage, installLanguageSwitch } from "./lang.js";
+import { projects } from "./projects.js";
 
 console.log('qutoof solutions v1.0 - loaded');
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const WHATSAPP_PHONE = "9665XXXXXXXX";
 const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=مرحبا%20قطوف`;
+let activeProjectFilter = "all";
+
 const iconPaths = {
   sparkle: '<path d="m12 2 1.8 7.1L21 12l-7.2 2.9L12 22l-1.8-7.1L3 12l7.2-2.9L12 2Z"/><path d="m19 14 1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3Z"/>',
   cart: '<path d="M3 4h2l2.2 11.3a2 2 0 0 0 2 1.7h8.6a2 2 0 0 0 1.9-1.4L22 9H6"/><circle cx="10" cy="21" r="1.2"/><circle cx="18" cy="21" r="1.2"/>',
@@ -31,20 +34,31 @@ function renderServices(language) {
     </article>`).join("");
 }
 
+function setProjectFilter(filter = activeProjectFilter) {
+  activeProjectFilter = filter;
+  document.querySelectorAll(".work-filter").forEach((button) => {
+    const active = button.dataset.filter === activeProjectFilter;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+  document.querySelectorAll(".project-card").forEach((card) => {
+    card.hidden = activeProjectFilter !== "all" && card.dataset.category !== activeProjectFilter;
+  });
+}
+
 function renderProjects(language) {
   const host = document.getElementById("portfolio-grid");
-  host.innerHTML = copy[language].work.projects.map((project, index) => `
-    <article class="project-card q-card reveal-child">
-      <div class="project-art scene-${index + 1} theme-${safeText(project.theme)}" aria-hidden="true">
-        <div class="mini-store-window"><div class="mini-store-bar"><span></span><span></span><span></span><b>${safeText(project.brand)}</b><i>＋</i></div>
-          <div class="mini-store-hero"><small>${safeText(project.category.toUpperCase())}</small><strong>${safeText(project.title)}</strong><i class="scene-shape shape-${index + 1}"></i></div>
-          <div class="mini-store-base"><i></i><i></i><i></i></div>
-        </div>
-        <span class="concept-stamp">${safeText(copy[language].work.concept)}</span>
-      </div>
-      <div class="project-meta"><div><span class="project-category">${safeText(project.category)}</span><h3>${safeText(project.brand)}</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
-      <div class="project-result"><strong>${safeText(project.result)}</strong><span>${safeText(project.sales)}</span><small>${safeText(copy[language].work.metricLabel)}</small></div>
-    </article>`).join("");
+  host.innerHTML = projects.map((project) => {
+    const title = project.title[language];
+    const description = project.description[language];
+    const category = copy[language].work.categories[project.category];
+    return `
+      <a class="project-card q-card reveal-child" data-category="${safeText(project.category)}" href="${safeText(project.url)}" target="_blank" rel="noopener noreferrer" aria-label="${safeText(copy[language].work.open)}: ${safeText(title)}">
+        <span class="project-image"><img src="${safeText(project.image)}" alt="${safeText(description)}" width="1120" height="800" loading="lazy" decoding="async" /><span class="project-open-label">${safeText(copy[language].work.open)} <span aria-hidden="true">↗</span></span></span>
+        <span class="project-meta"><span><span class="project-category">${safeText(category)}</span><strong>${safeText(title)}</strong><span class="project-description">${safeText(description)}</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+      </a>`;
+  }).join("");
+  setProjectFilter(activeProjectFilter);
 }
 
 function renderProcess(language) {
@@ -53,37 +67,13 @@ function renderProcess(language) {
     <article class="process-card reveal-child"><span class="process-index">0${index + 1}<i></i></span><h3>${safeText(step.title)}</h3><p>${safeText(step.body)}</p></article>`).join("");
 }
 
-function renderPricing(language) {
-  const host = document.getElementById("pricing-grid");
-  const direction = language === "ar" ? "rtl" : "ltr";
-  const currency = language === "ar" ? "ر.س" : "SAR";
-  const locale = language === "ar" ? "ar-SA" : "en-SA";
-  host.innerHTML = copy[language].pricing.plans.map((plan, index) => `
-    <article class="price-card q-card ${index === 1 ? "price-featured" : ""} reveal-child" dir="${direction}">
-      ${index === 1 ? `<span class="popular-tag">✳ ${safeText(copy[language].pricing.popular)}</span>` : ""}
-      <span class="price-label">${safeText(copy[language].pricing.from)}</span><h3>${safeText(plan.name)}</h3><p class="price-description">${safeText(plan.description)}</p>
-      <div class="price-amount"><strong>${new Intl.NumberFormat(locale).format(plan.price)}</strong><span>${currency}</span></div><span class="price-type">${safeText(copy[language].pricing.oneTime)}</span>
-      <ul>${plan.features.map((feature) => `<li><span aria-hidden="true">✓</span>${safeText(feature)}</li>`).join("")}</ul>
-      <a class="button ${index === 1 ? "button-dark" : "button-light"} plan-cta" href="#contact"><span>${safeText(copy[language].pricing.choose)}</span><span aria-hidden="true">↗</span></a>
-    </article>`).join("");
-}
-
-function renderTestimonials(language) {
-  const host = document.getElementById("testimonials-grid");
-  host.innerHTML = copy[language].voices.quotes.map((quote, index) => `
-    <article class="testimonial-card q-card reveal-child"><div class="quote-stars" aria-label="Five decorative stars">${"✳ ".repeat(5).trim()}</div>
-      <p class="quote-text">“${safeText(quote.text)}”</p><span class="testimonial-sample">${safeText(copy[language].voices.label)}</span>
-      <div class="quote-author"><span class="quote-avatar avatar-${index + 1}">${["ن", "م", "د"][index]}</span><div><strong>${safeText(quote.person)}</strong><span>${safeText(quote.location)}</span></div></div>
-    </article>`).join("");
-}
-
 function playReveal() {
   if (reducedMotion) {
     document.querySelectorAll(".reveal, .reveal-child").forEach((element) => element.classList.add("is-visible"));
     return;
   }
   document.querySelectorAll("[data-motion-group]").forEach((group) => {
-    const children = [...group.querySelectorAll(".reveal-child")];
+    const children = [...group.querySelectorAll(".reveal-child")].filter((child) => !child.hidden);
     if (!children.length) return;
     inView(group, () => {
       animate(children, { opacity: [0, 1], y: [20, 0] }, { duration: 0.62, delay: stagger(0.1), ease: [0.22, 1, 0.36, 1] });
@@ -103,8 +93,6 @@ function renderLocalizedContent(event) {
   renderServices(language);
   renderProjects(language);
   renderProcess(language);
-  renderPricing(language);
-  renderTestimonials(language);
   playReveal();
   document.querySelectorAll(".whatsapp-link").forEach((link) => {
     link.href = whatsappUrl;
@@ -118,6 +106,11 @@ function renderLocalizedContent(event) {
 installLanguageSwitch();
 window.addEventListener("qutoof:language-change", renderLocalizedContent);
 applyLanguage(getCurrentLanguage());
+
+document.querySelector(".work-filters").addEventListener("click", (event) => {
+  const button = event.target.closest(".work-filter");
+  if (button) setProjectFilter(button.dataset.filter);
+});
 
 if (!reducedMotion) {
   const lenis = new Lenis({ duration: 1.08, smoothWheel: true, syncTouch: false, wheelMultiplier: 0.9 });
@@ -144,23 +137,6 @@ document.querySelectorAll(".primary-nav a").forEach((link) => link.addEventListe
   menuButton.setAttribute("aria-expanded", "false");
 }));
 
-const form = document.getElementById("contact-form");
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const language = getCurrentLanguage();
-  const fields = new FormData(form);
-  const template = copy[language].contact.messageTemplate;
-  const goalField = form.querySelector('[name="goal"]');
-  const selectedGoal = goalField.options[goalField.selectedIndex]?.textContent || "";
-  const message = template
-    .replace("{name}", fields.get("name") || "")
-    .replace("{brand}", fields.get("brand") || (language === "ar" ? "غير محدد" : "not specified"))
-    .replace("{goal}", selectedGoal);
-  const destination = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
-  window.open(destination, "_blank", "noopener,noreferrer");
-});
-
-const liveRegion = document.getElementById("live-region");
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) return;
