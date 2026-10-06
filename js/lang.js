@@ -85,7 +85,7 @@ export const copy = {
       messageTemplate: "Hello Qutoof, my name is {name}. My brand/store is {brand}. I am looking for: {goal}. مرحبا قطوف"
     },
     footer: {
-      tagline: "Good stores make good things happen.", explore: "EXPLORE", sayHello: "SAY HELLO", whatsapp: "WhatsApp",
+      tagline: "Good stores make good things happen.", explore: "EXPLORE", sayHello: "SAY HELLO", whatsapp: "WhatsApp", startProject: "Start a project",
       location: "Thoughtfully made in Saudi Arabia.", top: "Back to top",
       disclaimer: "Portfolio scenes, example metrics, starting prices and testimonial copy are illustrative placeholders for review."
     }
@@ -176,7 +176,7 @@ export const copy = {
       messageTemplate: "مرحبًا قطوف، اسمي {name}. علامتي/متجري هو {brand}. أبحث عن: {goal}."
     },
     footer: {
-      tagline: "متاجر أجمل. وأعمال تزدهر.", explore: "اكتشف", sayHello: "تواصل معنا", whatsapp: "واتساب",
+      tagline: "متاجر أجمل. وأعمال تزدهر.", explore: "اكتشف", sayHello: "تواصل معنا", whatsapp: "واتساب", startProject: "ابدأ مشروعك",
       location: "صُنع بعناية في المملكة العربية السعودية.", top: "العودة للأعلى",
       disclaimer: "مشاهد الأعمال ومؤشراتها وأسعار البداية ونصوص الشهادات أمثلة أولية للمراجعة."
     }

@@ -5,7 +5,8 @@ import { applyLanguage, copy, getCurrentLanguage, installLanguageSwitch } from "
 console.log('qutoof solutions v1.0 - loaded');
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const whatsappUrl = "https://wa.me/9665XXXXXXXX?text=مرحبا%20قطوف";
+const WHATSAPP_PHONE = "9665XXXXXXXX";
+const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=مرحبا%20قطوف`;
 const iconPaths = {
   sparkle: '<path d="m12 2 1.8 7.1L21 12l-7.2 2.9L12 22l-1.8-7.1L3 12l7.2-2.9L12 2Z"/><path d="m19 14 1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3Z"/>',
   cart: '<path d="M3 4h2l2.2 11.3a2 2 0 0 0 2 1.7h8.6a2 2 0 0 0 1.9-1.4L22 9H6"/><circle cx="10" cy="21" r="1.2"/><circle cx="18" cy="21" r="1.2"/>',
@@ -155,7 +156,7 @@ form.addEventListener("submit", (event) => {
     .replace("{name}", fields.get("name") || "")
     .replace("{brand}", fields.get("brand") || (language === "ar" ? "غير محدد" : "not specified"))
     .replace("{goal}", selectedGoal);
-  const destination = `https://wa.me/9665XXXXXXXX?text=${encodeURIComponent(message)}`;
+  const destination = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
   window.open(destination, "_blank", "noopener,noreferrer");
 });
 
@@ -177,8 +178,8 @@ if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
   let x = -100, y = -100;
   window.addEventListener("pointermove", (event) => {
     x = event.clientX; y = event.clientY;
-    dot.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-    ring.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+    dot.style.transform = `translate3d(${x}px, ${y}px, 0) translate(-50%, -50%)`;
+    ring.style.transform = `translate3d(${x}px, ${y}px, 0) translate(-50%, -50%)`;
   }, { passive: true });
   document.addEventListener("pointerover", (event) => {
     const target = event.target.closest("a, button, input, select, .project-card");
