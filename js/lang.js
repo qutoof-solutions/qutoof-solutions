@@ -1,7 +1,7 @@
 export const copy = {
   en: {
     meta: {
-      title: "Qutoof Solutions — Digital Solutions for Ambitious Businesses",
+      title: "Qutoof Solutions | Digital Solutions for Businesses",
       description: "Qutoof Solutions builds thoughtful websites, landing pages, and digital experiences designed to help ambitious businesses move forward."
     },
     a11y: {
@@ -71,7 +71,7 @@ export const copy = {
   },
   ar: {
     meta: {
-      title: "قطوف للحلول الرقمية — حلول رقمية للأعمال الطموحة",
+      title: "قطوف للحلول الرقمية | حلول رقمية لأعمال طموحة",
       description: "تطوّر قطوف للحلول الرقمية مواقع وصفحات هبوط وتجارب رقمية مدروسة تساعد الأعمال الطموحة على التقدم."
     },
     a11y: {

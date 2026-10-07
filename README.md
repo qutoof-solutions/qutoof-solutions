@@ -11,7 +11,7 @@ npm run build
 npm run preview
 ```
 
-يفتح خادم التطوير على المنفذ 3000. ملفات الإنتاج الثابتة في `dist/`، وملف بيان المسارات المصدر في `public/manus-routes.json`.
+يفتح خادم التطوير على المنفذ 3000. ملفات الإنتاج الثابتة في `dist/`، وخريطة XML في `public/sitemap.xml`، وملف بيان المسارات المصدر في `public/manus-routes.json`.
 
 ## النشر عبر GitHub Pages
 
@@ -19,6 +19,8 @@ npm run preview
 - workflow في `.github/workflows/deploy-pages.yml` يثبت الاعتماديات، ويبني `dist/` عند كل دفع إلى `main` ثم ينشره.
 - يُستخدم `GITHUB_PAGES=true` أثناء البناء لضبط بادئة الموقع إلى `/qutoof-solutions/`، كما تستخدم صور المعرض `import.meta.env.BASE_URL`.
 - رابط الموقع: <https://qutoof-solutions.github.io/qutoof-solutions/>.
+- خريطة الموقع: <https://qutoof-solutions.github.io/qutoof-solutions/sitemap.xml>؛ تحتوي الصفحة العامة canonical الوحيدة، ولا تسرد روابط الأقسام ذات `#` كصفحات مستقلة.
+- أضف خريطة الموقع إلى Google Search Console بعد التحقق من ملكية الموقع. موقع GitHub Pages الحالي يعمل تحت مسار المستودع؛ ووفق متطلبات Google يجب أن يكون `robots.txt` في جذر المضيف، لا داخل هذا المسار. لذلك لا نضيف ملفًا فرعيًا يوحي خطأً بأنه يتحكم بزاحفي المضيف. غياب الملف يعني السماح الافتراضي بالزحف؛ عند استخدام نطاق مخصص، يوضع `robots.txt` عند جذر ذلك النطاق مع عنوان خريطة الموقع.
 
 ## بنية الملفات
 
