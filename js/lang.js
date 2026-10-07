@@ -1,37 +1,37 @@
 export const copy = {
   en: {
     meta: {
-      title: "Qutoof Solutions — Digital experiences, thoughtfully built",
-      description: "A digital portfolio of premium portfolios, websites and landing pages by Qutoof Solutions."
+      title: "Qutoof Solutions — Digital Solutions for Ambitious Businesses",
+      description: "Qutoof Solutions builds thoughtful websites, landing pages, and digital experiences designed to help ambitious businesses move forward."
     },
     a11y: {
       skip: "Skip to content", language: "Choose language", menu: "Open navigation menu",
       menuClose: "Close navigation menu", home: "Qutoof Solutions home", primaryNav: "Primary navigation",
       heroVisual: "Qutoof portfolio visual", workFilters: "Filter portfolio projects"
     },
-    nav: { services: "Services", work: "Selected work", process: "Process", approach: "Our approach", contact: "Ask on WhatsApp" },
+    nav: { services: "Services", work: "Selected work", process: "Process", approach: "Our approach", contact: "Contact" },
     hero: {
       status: "Available for new projects", eyebrow: "DIGITAL EXPERIENCES, BUILT WITH INTENT",
-      title: "I build digital work<br />that feels <span>unmistakable.</span>",
-      subtitle: "A portfolio of thoughtful digital experiences",
-      description: "A living portfolio of websites, portfolios and landing pages—made to give ideas a sharp digital presence.",
-      viewWork: "Explore the work", contact: "Contact Us", proof: "live demos. Three directions. One point of view.",
-      scroll: "SCROLL TO EXPLORE", note: "BUILT TO BE REMEMBERED",
-      previewStat: "responsive by design", breakdown: "portfolio · websites · landing", signature: "BUILT WITH INTENT"
+      title: "Digital solutions<br />that move your business <span>forward.</span>",
+      subtitle: "Thoughtful digital experiences for ambitious businesses.",
+      description: "Websites, landing pages, and digital experiences designed around your brand, your customers, and your next move.",
+      viewWork: "View Our Work", contact: "Start a Project", proof: "Digital experiences. Three directions. One vision.",
+      scroll: "SCROLL TO EXPLORE", note: "BUILT AROUND YOUR NEXT MOVE",
+      previewStat: "Selected demo", breakdown: "websites · landing pages · digital experiences", signature: "BUILT WITH INTENT"
     },
     services: {
-      kicker: "THE WORK", title: "Different formats.<br /><span>One considered standard.</span>",
-      intro: "From personal portfolios to focused product launches, every build starts with a clear point of view.",
+      kicker: "WHAT WE DO", title: "Digital experiences.<br /><span>Built around your business.</span>",
+      intro: "From a clear business website to a focused launch, each experience is shaped around your brand and customers.",
       items: [
-        { title: "Portfolio websites", body: "Personal and creative websites that make the work feel as strong as the person behind it.", detail: "A point of view people remember." },
-        { title: "Business websites", body: "Clear, credible digital homes for brands, studios and professionals with something to say.", detail: "Structure with presence." },
-        { title: "Landing pages", body: "Focused pages that turn one product, offer or idea into a compelling first impression.", detail: "One message. No wasted motion." },
-        { title: "Digital direction", body: "A considered visual system, from the first mood to the last interaction and launch detail.", detail: "Intent in every layer." }
+        { title: "Websites", body: "High-quality business websites designed around your brand, usability, and the actions that matter.", detail: "Clarity, built in." },
+        { title: "Landing pages", body: "Focused landing experiences that communicate clearly and guide visitors toward a next step.", detail: "One clear direction." },
+        { title: "E-commerce experiences", body: "Digital storefront experiences shaped around trust, clarity, and the customer journey.", detail: "Designed for the customer." },
+        { title: "Digital solutions", body: "Thoughtful digital experiences designed around specific business needs and goals.", detail: "Made for what comes next." }
       ]
     },
     work: {
-      kicker: "THE PORTFOLIO", title: "Ten live demos.<br /><span>Three kinds of work.</span>",
-      intro: "Explore the work by format. Every card opens the live demo and tells you what kind of experience it is.",
+      kicker: "SELECTED WORK", title: "Digital experiences.<br /><span>Three directions. One vision.</span>",
+      intro: "Explore the work by format. Each card opens a demo and identifies the kind of experience on display.",
       disclaimer: "These are demo websites and portfolio examples—not verified client results.",
       footer: "Have a project like one of these?", cta: "Ask us on WhatsApp",
       filters: { all: "All work", portfolio: "Portfolios", landing: "Landing pages", website: "Websites" },
@@ -48,61 +48,61 @@ export const copy = {
       ]
     },
     approach: {
-      kicker: "THE STANDARD", title: "Good digital work should<br /><span>feel inevitable.</span>",
-      intro: "The best sites feel clear at first glance, distinctive over time and effortless to use on every screen.",
+      kicker: "OUR APPROACH", title: "Good digital work should<br /><span>make the next step clear.</span>",
+      intro: "A useful website is clear about the offer, true to the brand, and easy for customers to use.",
       items: [
-        { title: "Clarity before decoration", body: "Every visual choice starts with what the project needs to communicate." },
-        { title: "Details carry the feeling", body: "Type, spacing, motion and interaction are treated as part of the identity." },
-        { title: "Responsive by design", body: "The experience should feel intentional on a phone, a laptop and everything between." }
+        { title: "Start with the right questions", body: "Understand business goals, customers, and priorities before settling on a direction." },
+        { title: "Make the brand feel present", body: "Shape the visual story and page structure around what makes the business distinct." },
+        { title: "Keep the next step clear", body: "Help visitors understand what to explore or how to get in touch without friction." }
       ]
     },
     contact: {
       kicker: "HAVE A DIRECTION? LET’S TALK", title: "Bring the idea.<br /><span>Let’s make it real.</span>",
-      intro: "Tell me what you are building, what it should feel like and where you want it to go.",
+      intro: "Tell us what you are building, who it is for, and what the next step should make possible.",
       cardEyebrow: "DIRECT ON WHATSAPP", cardTitle: "Ask us about your project.",
       cardBody: "Send a question or a few details about your idea. We’ll discuss the next step with you directly.",
       button: "Start a WhatsApp conversation"
     },
     footer: {
-      tagline: "Digital work with a point of view.", explore: "EXPLORE", sayHello: "SAY HELLO",
-      whatsapp: "WhatsApp", startProject: "Ask about a project", facebook: "Facebook", facebookAria: "Qutoof Solutions on Facebook", location: "Thoughtfully made in Saudi Arabia.",
+      tagline: "Thoughtful digital solutions for ambitious businesses.", explore: "EXPLORE", sayHello: "SAY HELLO",
+      whatsapp: "WhatsApp", startProject: "Start a project", facebook: "Facebook", facebookAria: "Qutoof Solutions on Facebook", location: "Digital solutions, thoughtfully built.",
       top: "Back to top", disclaimer: "Portfolio links are demo websites. No unsupported sales claims or client testimonials are shown."
     }
   },
   ar: {
     meta: {
-      title: "قطوف للحلول الرقمية — تجارب رقمية مصممة بعناية",
-      description: "بورتفوليو رقمي يضم مواقع وبورتفوليوهات وصفحات هبوط من تنفيذ قطوف للحلول الرقمية."
+      title: "قطوف للحلول الرقمية — حلول رقمية للأعمال الطموحة",
+      description: "تطوّر قطوف للحلول الرقمية مواقع وصفحات هبوط وتجارب رقمية مدروسة تساعد الأعمال الطموحة على التقدم."
     },
     a11y: {
       skip: "انتقل إلى المحتوى", language: "اختر اللغة", menu: "افتح قائمة التنقل",
       menuClose: "أغلق قائمة التنقل", home: "الصفحة الرئيسية لقطوف للحلول الرقمية", primaryNav: "التنقل الرئيسي",
       heroVisual: "التكوين البصري لبورتفوليو قطوف", workFilters: "تصفية نماذج الأعمال"
     },
-    nav: { services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "استفسر عبر واتساب" },
+    nav: { services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "تواصل معنا" },
     hero: {
       status: "متاح لاستقبال مشاريع جديدة", eyebrow: "تجارب رقمية تُبنى بقصد",
-      title: "أبني أعمالًا رقمية<br />لها <span>حضور لا يُنسى.</span>",
-      subtitle: "بورتفوليو من التجارب الرقمية المدروسة",
-      description: "بورتفوليو حي يضم مواقع وبورتفوليوهات وصفحات هبوط تمنح كل فكرة حضورًا رقميًا واضحًا ومميزًا.",
-      viewWork: "استكشف الأعمال", contact: "تواصل معنا", proof: "نماذج مباشرة. ثلاثة اتجاهات. ورؤية واحدة.",
-      scroll: "مرّر لاكتشاف المزيد", note: "مصمم ليبقى في الذاكرة",
-      previewStat: "متجاوب من الأساس", breakdown: "بورتفوليو · مواقع · صفحات هبوط", signature: "مصمم بقصد"
+      title: "حلول رقمية<br />تدفع أعمالك إلى <span>الأمام.</span>",
+      subtitle: "تجارب رقمية مدروسة للأعمال الطموحة.",
+      description: "مواقع وصفحات هبوط وتجارب رقمية تُصمم حول علامتك التجارية وعملائك وخطوتك القادمة.",
+      viewWork: "استكشف أعمالنا", contact: "ابدأ مشروعك", proof: "تجارب رقمية. ثلاثة اتجاهات. رؤية واحدة.",
+      scroll: "مرّر لاكتشاف المزيد", note: "مصممة حول خطوتك القادمة",
+      previewStat: "نموذج مختار", breakdown: "مواقع · صفحات هبوط · تجارب رقمية", signature: "مصمم بهدف"
     },
     services: {
-      kicker: "الأعمال", title: "أشكال مختلفة.<br /><span>ومعيار واحد.</span>",
-      intro: "من البورتفوليو الشخصي إلى إطلاق المنتجات، يبدأ كل مشروع برؤية واضحة وحضور مقصود.",
+      kicker: "ما نقدمه", title: "تجارب رقمية.<br /><span>مصممة حول أعمالك.</span>",
+      intro: "من موقع أعمال واضح إلى صفحة إطلاق مركزة، نصمم كل تجربة حول علامتك التجارية وعملائك.",
       items: [
-        { title: "مواقع البورتفوليو", body: "مواقع شخصية وإبداعية تجعل العمل قويًا بقدر قوة الشخص الذي يقف خلفه.", detail: "رؤية يتذكرها الناس." },
-        { title: "مواقع الأعمال", body: "واجهات رقمية واضحة وموثوقة للعلامات والاستوديوهات والمهنيين.", detail: "هيكل له حضور." },
-        { title: "صفحات الهبوط", body: "صفحات مركزة تحول منتجًا أو عرضًا أو فكرة إلى انطباع أول قوي.", detail: "رسالة واحدة. دون حركة زائدة." },
-        { title: "التوجيه الرقمي", body: "نظام بصري مدروس يبدأ من المزاج العام وينتهي عند آخر تفاعل وتفصيلة إطلاق.", detail: "قصد في كل طبقة." }
+        { title: "المواقع الإلكترونية", body: "مواقع أعمال عالية الجودة تُصمم حول العلامة التجارية وسهولة الاستخدام والإجراءات المهمة.", detail: "وضوح من البداية." },
+        { title: "صفحات الهبوط", body: "تجارب مركزة توصل الرسالة بوضوح وترشد الزوار إلى الخطوة التالية.", detail: "اتجاه واحد واضح." },
+        { title: "تجارب التجارة الإلكترونية", body: "واجهات متاجر رقمية تراعي الثقة والوضوح ورحلة العميل.", detail: "مصممة للعميل." },
+        { title: "الحلول الرقمية", body: "تجارب رقمية مدروسة تُصمم وفق احتياجات الأعمال وأهدافها.", detail: "مصممة لما هو قادم." }
       ]
     },
     work: {
-      kicker: "البورتفوليو", title: "10 نماذج مباشرة.<br /><span>ثلاثة أنواع من الأعمال.</span>",
-      intro: "استكشف الأعمال حسب نوعها. كل بطاقة تفتح النموذج المباشر وتوضح نوع التجربة المعروضة.",
-      disclaimer: "هذه مواقع تجريبية من أعمالك وليست نتائج موثقة لعملاء.",
+      kicker: "أعمال مختارة", title: "تجارب رقمية.<br /><span>ثلاثة اتجاهات. رؤية واحدة.</span>",
+      intro: "استكشف الأعمال حسب نوعها. تفتح كل بطاقة نموذجًا تجريبيًا وتوضح نوع التجربة المعروضة.",
+      disclaimer: "هذه نماذج لمواقع تجريبية وأعمال توضيحية، وليست نتائج موثقة لعملاء.",
       footer: "هل لديك مشروع مشابه؟", cta: "استفسر عبر واتساب",
       filters: { all: "كل الأعمال", portfolio: "بورتفوليو", landing: "صفحات هبوط", website: "مواقع" },
       categories: { portfolio: "بورتفوليو", landing: "صفحة هبوط", website: "موقع" }, open: "افتح النموذج"
@@ -118,24 +118,24 @@ export const copy = {
       ]
     },
     approach: {
-      kicker: "المعيار", title: "العمل الرقمي الجيد يجب أن<br /><span>يبدو حتميًا.</span>",
-      intro: "أفضل المواقع تبدو واضحة من النظرة الأولى، مميزة مع الوقت، وسهلة الاستخدام على كل شاشة.",
+      kicker: "أسلوبنا", title: "العمل الرقمي الجيد يجعل<br /><span>الخطوة التالية واضحة.</span>",
+      intro: "الموقع المفيد يوضح العرض، ويعبر عن العلامة، ويسهّل الاستخدام على عملائها.",
       items: [
-        { title: "الوضوح قبل الزخرفة", body: "كل اختيار بصري يبدأ مما يحتاج المشروع إلى إيصاله بوضوح." },
-        { title: "التفاصيل تحمل الإحساس", body: "الخطوط والمسافات والحركة والتفاعل جزء من الهوية، وليست إضافات سطحية." },
-        { title: "التجاوب من البداية", body: "يجب أن تبدو التجربة مقصودة على الهاتف واللابتوب وكل شاشة بينهما." }
+        { title: "نبدأ بالأسئلة الصحيحة", body: "نفهم أهداف العمل والعملاء والأولويات قبل اختيار الاتجاه المناسب." },
+        { title: "نُظهر هوية العلامة", body: "نبني الحكاية البصرية وهيكل الصفحات حول ما يميز العمل." },
+        { title: "نوضح الخطوة التالية", body: "نساعد الزوار على معرفة ما يستكشفونه أو كيفية التواصل دون تعقيد." }
       ]
     },
     contact: {
       kicker: "عندك اتجاه؟ كلمنا", title: "أحضر الفكرة.<br /><span>ونحوّلها إلى واقع.</span>",
-      intro: "احكِ لي ما الذي تبنيه، وما الإحساس الذي تريده، وإلى أين تريد أن تصل به.",
+      intro: "أخبرنا بما تعمل على بنائه، ولمن، وما الذي تريد أن تحققه خطوتك التالية.",
       cardEyebrow: "التواصل مباشرة عبر واتساب", cardTitle: "استفسر عن مشروعك.",
       cardBody: "أرسل سؤالك أو نبذة عن فكرتك، ونناقش معك الخطوة المناسبة مباشرة.",
       button: "ابدأ محادثة على واتساب"
     },
     footer: {
-      tagline: "أعمال رقمية لها رؤية.", explore: "اكتشف", sayHello: "تواصل معنا",
-      whatsapp: "واتساب", startProject: "استفسر عن مشروعك", facebook: "فيسبوك", facebookAria: "صفحة قطوف للحلول الرقمية على فيسبوك", location: "صُنع بعناية في المملكة العربية السعودية.",
+      tagline: "حلول رقمية مدروسة للأعمال الطموحة.", explore: "اكتشف", sayHello: "تواصل معنا",
+      whatsapp: "واتساب", startProject: "ابدأ مشروعًا", facebook: "فيسبوك", facebookAria: "صفحة قطوف للحلول الرقمية على فيسبوك", location: "حلول رقمية تُبنى بعناية.",
       top: "العودة للأعلى", disclaimer: "الروابط المعروضة لمواقع ديمو؛ لا نعرض أرقام مبيعات أو شهادات عملاء غير موثقة."
     }
   }
@@ -164,6 +164,10 @@ export function applyLanguage(language = getCurrentLanguage()) {
   document.body.dataset.language = lang;
   document.title = dictionary.meta.title;
   document.querySelector('meta[name="description"]')?.setAttribute("content", dictionary.meta.description);
+  document.querySelector('meta[property="og:title"]')?.setAttribute("content", dictionary.meta.title);
+  document.querySelector('meta[property="og:description"]')?.setAttribute("content", dictionary.meta.description);
+  document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", dictionary.meta.title);
+  document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", dictionary.meta.description);
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const value = getByPath(dictionary, element.dataset.i18n);
