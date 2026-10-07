@@ -5,6 +5,19 @@ const projectImageSrcset = (stem, widths = [480, 800, 1120]) => widths
 
 export const projects = [
   {
+    category: "ecommerce",
+    title: { en: "Éclat Kitchen Store", ar: "Éclat Kitchen Store" },
+    description: {
+      en: "A refined Arabic kitchenware storefront with curated collections and a clear shopping experience.",
+      ar: "متجر عربي تجريبي لأدوات المطبخ، يعرض مجموعات مختارة ضمن تجربة تسوق واضحة."
+    },
+    image: projectImage("eclat-kitchen-store-800.webp"),
+    imageSrcset: projectImageSrcset("eclat-kitchen-store"),
+    imageWidth: 1120,
+    imageHeight: 800,
+    url: "https://eclat-kitchen-store.pages.dev/"
+  },
+  {
     category: "portfolio",
     title: { en: "Youssef El-Sayed Portfolio", ar: "Youssef El-Sayed Portfolio" },
     description: { en: "A visual portfolio for creative work and personal presentation.", ar: "بورتفوليو بصري لعرض الأعمال الإبداعية وتقديم الهوية الشخصية." },

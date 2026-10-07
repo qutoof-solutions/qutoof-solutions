@@ -2,7 +2,7 @@ export const copy = {
   en: {
     meta: {
       title: "Qutoof Solutions | Digital Solutions for Businesses",
-      description: "Qutoof Solutions builds thoughtful websites, landing pages, and digital experiences designed to help ambitious businesses move forward."
+      description: "Qutoof Solutions builds thoughtful websites, landing pages, e-commerce stores, and digital experiences designed to help ambitious businesses move forward."
     },
     a11y: {
       skip: "Skip to content", language: "Choose language", menu: "Open navigation menu",
@@ -14,10 +14,10 @@ export const copy = {
       status: "Available for new projects", eyebrow: "DIGITAL EXPERIENCES, BUILT WITH INTENT",
       title: "Digital solutions<br />that move your business <span>forward.</span>",
       subtitle: "Thoughtful digital experiences for ambitious businesses.",
-      description: "Websites, landing pages, and digital experiences designed around your brand, your customers, and your next move.",
-      viewWork: "View Our Work", contact: "Start a Project", proof: "Digital experiences. Three directions. One vision.",
+      description: "Websites, landing pages, and online stores designed around your brand, your customers, and your next move.",
+      viewWork: "View Our Work", contact: "Start a Project", proof: "Digital experiences. Four formats. One vision.",
       scroll: "SCROLL TO EXPLORE", note: "BUILT AROUND YOUR NEXT MOVE",
-      previewStat: "Selected demo", breakdown: "websites · landing pages · digital experiences", signature: "BUILT WITH INTENT"
+      previewStat: "Selected demo", breakdown: "portfolios · websites · landing pages · e-commerce", signature: "BUILT WITH INTENT"
     },
     services: {
       kicker: "WHAT WE DO", title: "Digital experiences.<br /><span>Built around your business.</span>",
@@ -30,12 +30,12 @@ export const copy = {
       ]
     },
     work: {
-      kicker: "SELECTED WORK", title: "Digital experiences.<br /><span>Three directions. One vision.</span>",
+      kicker: "SELECTED WORK", title: "Eleven live demos.<br /><span>Four kinds of work.</span>",
       intro: "Explore the work by format. Each card opens a demo and identifies the kind of experience on display.",
       disclaimer: "These are demo websites and portfolio examples—not verified client results.",
       footer: "Have a project like one of these?", cta: "Ask us on WhatsApp",
-      filters: { all: "All work", portfolio: "Portfolios", landing: "Landing pages", website: "Websites" },
-      categories: { portfolio: "Portfolio", landing: "Landing page", website: "Website" }, open: "Open demo"
+      filters: { all: "All work", portfolio: "Portfolios", landing: "Landing pages", website: "Websites", ecommerce: "E-commerce" },
+      categories: { portfolio: "Portfolio", landing: "Landing page", website: "Website", ecommerce: "E-commerce" }, open: "Open demo"
     },
     process: {
       kicker: "THE PROCESS", title: "Sharp thinking.<br /><span>Beautiful execution.</span>",
@@ -72,7 +72,7 @@ export const copy = {
   ar: {
     meta: {
       title: "قطوف للحلول الرقمية | حلول رقمية لأعمال طموحة",
-      description: "تطوّر قطوف للحلول الرقمية مواقع وصفحات هبوط وتجارب رقمية مدروسة تساعد الأعمال الطموحة على التقدم."
+      description: "تطوّر قطوف للحلول الرقمية مواقع وصفحات هبوط ومتاجر إلكترونية وتجارب رقمية مدروسة تساعد الأعمال الطموحة على التقدم."
     },
     a11y: {
       skip: "انتقل إلى المحتوى", language: "اختر اللغة", menu: "افتح قائمة التنقل",
@@ -84,10 +84,10 @@ export const copy = {
       status: "متاح لاستقبال مشاريع جديدة", eyebrow: "تجارب رقمية تُبنى بقصد",
       title: "حلول رقمية<br />تدفع أعمالك إلى <span>الأمام.</span>",
       subtitle: "تجارب رقمية مدروسة للأعمال الطموحة.",
-      description: "مواقع وصفحات هبوط وتجارب رقمية تُصمم حول علامتك التجارية وعملائك وخطوتك القادمة.",
-      viewWork: "استكشف أعمالنا", contact: "ابدأ مشروعك", proof: "تجارب رقمية. ثلاثة اتجاهات. رؤية واحدة.",
+      description: "مواقع وصفحات هبوط ومتاجر إلكترونية تُصمم حول علامتك التجارية وعملائك وخطوتك القادمة.",
+      viewWork: "استكشف أعمالنا", contact: "ابدأ مشروعك", proof: "تجارب رقمية. أربعة أنواع. رؤية واحدة.",
       scroll: "مرّر لاكتشاف المزيد", note: "مصممة حول خطوتك القادمة",
-      previewStat: "نموذج مختار", breakdown: "مواقع · صفحات هبوط · تجارب رقمية", signature: "مصمم بهدف"
+      previewStat: "نموذج مختار", breakdown: "بورتفوليو · مواقع · صفحات هبوط · متاجر إلكترونية", signature: "مصمم بهدف"
     },
     services: {
       kicker: "ما نقدمه", title: "تجارب رقمية.<br /><span>مصممة حول أعمالك.</span>",
@@ -100,12 +100,12 @@ export const copy = {
       ]
     },
     work: {
-      kicker: "أعمال مختارة", title: "تجارب رقمية.<br /><span>ثلاثة اتجاهات. رؤية واحدة.</span>",
+      kicker: "أعمال مختارة", title: "أحد عشر نموذجًا حيًا.<br /><span>أربعة أنواع من الأعمال.</span>",
       intro: "استكشف الأعمال حسب نوعها. تفتح كل بطاقة نموذجًا تجريبيًا وتوضح نوع التجربة المعروضة.",
       disclaimer: "هذه نماذج لمواقع تجريبية وأعمال توضيحية، وليست نتائج موثقة لعملاء.",
       footer: "هل لديك مشروع مشابه؟", cta: "استفسر عبر واتساب",
-      filters: { all: "كل الأعمال", portfolio: "بورتفوليو", landing: "صفحات هبوط", website: "مواقع" },
-      categories: { portfolio: "بورتفوليو", landing: "صفحة هبوط", website: "موقع" }, open: "افتح النموذج"
+      filters: { all: "كل الأعمال", portfolio: "بورتفوليو", landing: "صفحات هبوط", website: "مواقع", ecommerce: "متاجر إلكترونية" },
+      categories: { portfolio: "بورتفوليو", landing: "صفحة هبوط", website: "موقع", ecommerce: "متجر إلكتروني" }, open: "افتح النموذج"
     },
     process: {
       kicker: "المنهج", title: "تفكير حاد.<br /><span>وتنفيذ جميل.</span>",
