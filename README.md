@@ -28,7 +28,8 @@ npm run preview
 - `assets/images/logo-transparent.png` — نسخة PNG شفافة مقصوصة للشعار؛ الأصل محفوظ دون تعديل.
 - `public/assets/images/logo.png` — نسخة الشعار التي ينسخها Vite إلى إصدار الإنتاج.
 - `public/assets/images/logo-transparent.png` — النسخة الشفافة المستخدمة في هيدر الموقع.
-- `public/assets/images/portfolio/` — صور معاينة لأعمال الديمو العشرة.
+- `public/assets/images/portfolio/` — معاينات WebP متجاوبة بعروض 480/800/1120 بكسل للأعمال المعروضة.
+- `assets/images/portfolio-originals/` — النسخ الأصلية المحفوظة خارج حزمة النشر؛ لقطة Luna هنا مأخوذة حديثًا من الموقع بعد إصلاحه.
 - `css/main.css` — لوحة العلامة والتصميم المتجاوب وRTL.
 - `css/animations.css` — الكشف والحركة.
 - `js/main.js` — سلوك الصفحة والفلاتر والتمرير وروابط التواصل.

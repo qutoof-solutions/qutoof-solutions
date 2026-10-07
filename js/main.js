@@ -55,7 +55,7 @@ function renderProjects(language) {
     const category = copy[language].work.categories[project.category];
     return `
       <a class="project-card q-card reveal-child" data-category="${safeText(project.category)}" href="${safeText(project.url)}" target="_blank" rel="noopener noreferrer" aria-label="${safeText(copy[language].work.open)}: ${safeText(title)}">
-        <span class="project-image"><img src="${safeText(project.image)}" alt="${safeText(description)}" width="1120" height="800" loading="lazy" decoding="async" /><span class="project-open-label">${safeText(copy[language].work.open)} <span aria-hidden="true">↗</span></span></span>
+        <span class="project-image"><img src="${safeText(project.image)}" srcset="${safeText(project.imageSrcset)}" sizes="(max-width: 520px) calc(100vw - 32px), (max-width: 780px) calc((100vw - 45px) / 2), (max-width: 1280px) calc((100vw - 72px) / 3), 360px" alt="${safeText(description)}" width="${project.imageWidth}" height="${project.imageHeight}" loading="lazy" decoding="async" /><span class="project-open-label">${safeText(copy[language].work.open)} <span aria-hidden="true">↗</span></span></span>
         <span class="project-meta"><span><span class="project-category"><b>${String(index + 1).padStart(2, "0")}</b>${safeText(category)}</span><strong>${safeText(title)}</strong><span class="project-description">${safeText(description)}</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
       </a>`;
   }).join("");
