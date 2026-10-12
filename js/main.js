@@ -8,7 +8,7 @@ console.log('qutoof solutions v1.0 - loaded');
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 // Egypt number normalized for wa.me: +20 100 278 5919.
 const WHATSAPP_PHONE = "201002785919";
-const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=مرحبا%20قطوف`;
+const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=Hello%20Qutoof%20Solutions%2C%20I%E2%80%99m%20interested%20in%20your%20digital%20solutions.%20I%E2%80%99d%20like%20to%20learn%20more%20about%20your%20websites%2C%20landing%20pages%2C%20e-commerce%20stores%2C%20and%20digital%20experiences.%20Please%20share%20more%20details%20about%20how%20we%20can%20work%20together.`;
 let activeProjectFilter = "all";
 
 const iconPaths = {
