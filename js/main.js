@@ -8,7 +8,7 @@ console.log('qutoof solutions v1.0 - loaded');
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 // Egypt number normalized for wa.me: +20 100 278 5919.
 const WHATSAPP_PHONE = "201002785919";
-const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=Hello%20Qutoof%20Solutions%2C%20I%E2%80%99m%20interested%20in%20your%20digital%20solutions.%20I%E2%80%99d%20like%20to%20learn%20more%20about%20your%20websites%2C%20landing%20pages%2C%20e-commerce%20stores%2C%20and%20digital%20experiences.%20Please%20share%20more%20details%20about%20how%20we%20can%20work%20together.`;
+const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%20Qutoof%20Solutions%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%83%D9%85%20%D9%81%D9%8A%20%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%82%D8%B9%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9%D8%8C%20%D8%B5%D9%81%D8%AD%D8%A7%D8%AA%20%D8%A7%D9%84%D9%87%D8%A8%D9%88%D8%B7%D8%8C%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9%20%D9%88%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A8%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9.%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D9%81%D9%83%D8%B1%D8%A9%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A%20%D9%88%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D9%83%D9%8A%D9%81%20%D9%8A%D9%85%D9%83%D9%86%D9%83%D9%85%20%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%AA%D9%8A.%20%D8%B4%D9%83%D8%B1%D9%8B%D8%A7%20%D9%84%D9%83%D9%85.`;
 let activeProjectFilter = "all";
 
 const iconPaths = {
