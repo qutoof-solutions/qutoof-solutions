@@ -23,6 +23,13 @@
     <meta name="twitter:image:alt" content="Qutoof Solutions — قطوف للحلول الرقمية" />
     <meta name="twitter:title" content="Qutoof Solutions | Digital Solutions for Businesses" />
     <meta name="twitter:description" content="Thoughtful websites, landing pages, e-commerce stores, and digital experiences designed to help ambitious businesses move forward." />
+    <script>
+      if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+      if (performance.getEntriesByType("navigation")[0]?.type === "reload") {
+        if (window.location.hash) history.replaceState(null, document.title, window.location.pathname + window.location.search);
+        window.scrollTo(0, 0);
+      }
+    </script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
