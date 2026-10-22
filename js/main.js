@@ -26,6 +26,15 @@ function icon(name) {
   return `<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${iconPaths[name] || iconPaths.sparkle}</svg>`;
 }
 
+function renderProducts(language) {
+  const host = document.getElementById("products-grid");
+  host.innerHTML = copy[language].products.items.map((item, index) => `
+    <a class="product-card q-card reveal-child${index === 0 ? " product-card-featured" : ""}" href="${safeText(item.url)}" target="_blank" rel="noopener noreferrer" aria-label="${safeText(copy[language].products.open)}: ${safeText(item.title)}">
+      <span class="product-image"><img src="${safeText(`${import.meta.env.BASE_URL}assets/images/portfolio/${item.image}`)}" alt="${safeText(item.title)}" loading="lazy" decoding="async" /><span class="product-badge">${safeText(copy[language].products.badge)}</span><span class="project-open-label">${safeText(copy[language].products.open)} <span aria-hidden="true">↗</span></span></span>
+      <span class="product-meta"><span class="product-number">0${index + 1}</span><strong>${safeText(item.title)}</strong><span class="product-description">${safeText(item.body)}</span><span class="product-detail"><i></i>${safeText(item.detail)}</span></span><span class="project-arrow" aria-hidden="true">↗</span>
+    </a>`).join("");
+}
+
 function renderServices(language) {
   const host = document.getElementById("services-grid");
   host.innerHTML = copy[language].services.items.map((item, index) => `
@@ -91,6 +100,7 @@ function playReveal() {
 
 function renderLocalizedContent(event) {
   const language = event?.detail?.language || getCurrentLanguage();
+  renderProducts(language);
   renderServices(language);
   renderProjects(language);
   renderProcess(language);

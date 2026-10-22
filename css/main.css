@@ -424,3 +424,37 @@ svg { display: block; }
 @media (max-width: 768px) {
   .q-hero-title { font-size: 30px; line-height: 1.35; }
 }
+
+/* Qutoof product suite: lead with the SaaS platform, then its focused tools. */
+.products-section { background: #fff; }
+.products-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 18px; }
+.product-card { position: relative; display: flex; min-width: 0; flex-direction: column; grid-column: span 4; overflow: hidden; color: inherit; transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease; }
+.product-card-featured { grid-column: span 6; }
+.product-card:hover { border-color: rgba(10,191,138,.5); box-shadow: var(--shadow-card); transform: translateY(-5px); }
+.product-image { position: relative; display: block; overflow: hidden; aspect-ratio: 16 / 9; background: #102028; }
+.product-card-featured .product-image { aspect-ratio: 16 / 8.5; }
+.product-image > img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top center; transition: transform .55s cubic-bezier(.2,.8,.2,1), filter .35s ease; }
+.product-card:hover .product-image > img { filter: saturate(1.08); transform: scale(1.035); }
+.product-badge { position: absolute; top: 13px; left: 13px; padding: 6px 9px; border: 1px solid rgba(255,255,255,.28); border-radius: 999px; color: #d8fff1; background: rgba(8,22,27,.72); font-size: 8px; font-weight: 700; backdrop-filter: blur(8px); }
+.product-meta { position: relative; display: flex; min-height: 175px; flex-direction: column; align-items: flex-start; gap: 6px; padding: 18px 18px 18px; }
+.product-number { color: var(--green-deep); font-size: 9px; font-weight: 800; letter-spacing: .1em; }
+.product-meta strong { color: var(--ink); font-size: 17px; font-weight: 750; letter-spacing: -.04em; }
+.product-description { max-width: 480px; color: var(--gray); font-size: 10px; line-height: 1.75; }
+.product-detail { display: inline-flex; align-items: center; gap: 7px; margin-top: auto; color: #36755c; font-size: 9px; font-weight: 700; }
+.product-detail i { width: 5px; height: 5px; border-radius: 50%; background: var(--green); }
+.product-card > .project-arrow { position: absolute; right: 17px; bottom: 17px; }
+[dir="rtl"] .product-badge { right: 13px; left: auto; }
+[dir="rtl"] .product-card > .project-arrow { right: auto; left: 17px; }
+@media (max-width: 780px) {
+  .products-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .product-card, .product-card-featured { grid-column: span 1; }
+  .product-card-featured { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .products-grid { grid-template-columns: 1fr; max-width: 460px; margin-inline: auto; }
+  .product-card, .product-card-featured { grid-column: auto; }
+  .product-card-featured .product-image, .product-image { aspect-ratio: 16 / 9; }
+  .product-meta { min-height: 155px; padding: 15px; }
+  .product-meta strong { font-size: 16px; }
+  .product-description { font-size: 10px; }
+}

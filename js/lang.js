@@ -9,7 +9,7 @@ export const copy = {
       menuClose: "Close navigation menu", home: "Qutoof Solutions home", primaryNav: "Primary navigation",
       heroVisual: "Qutoof portfolio visual", workFilters: "Filter portfolio projects"
     },
-    nav: { services: "Services", work: "Selected work", process: "Process", approach: "Our approach", contact: "Contact" },
+    nav: { products: "Qutoof products", services: "Services", work: "Selected work", process: "Process", approach: "Our approach", contact: "Contact" },
     hero: {
       status: "Available for new projects", eyebrow: "DIGITAL EXPERIENCES, BUILT WITH INTENT",
       title: "Digital solutions<br />that move your business <span>forward.</span>",
@@ -18,6 +18,17 @@ export const copy = {
       viewWork: "View Our Work", contact: "Start a Project", proof: "Digital experiences. Four formats. One vision.",
       scroll: "SCROLL TO EXPLORE", note: "BUILT AROUND YOUR NEXT MOVE",
       previewStat: "Selected demo", breakdown: "portfolios · websites · landing pages · e-commerce", signature: "BUILT WITH INTENT"
+    },
+    products: {
+      kicker: "THE QUTOOF SYSTEMS", title: "Business software.<br /><span>Built for the day-to-day.</span>",
+      intro: "A focused suite of Arabic-first tools for businesses and teams that keep everyday operations moving.",
+      open: "Open product", badge: "Live demo",
+      items: [
+        { title: "Qutoof Business", body: "The SaaS operating system for small and mid-sized businesses: POS, inventory, branches, bookings, finance, CRM, clinics, gyms and more.", detail: "The complete business platform", url: "https://qutoof-crm-2.pages.dev/", image: "qutoof-business-dark.webp" },
+        { title: "Qutoof ERP", body: "Wholesale and warehouse management with purchasing, stock balances, branches, distribution and field representative journeys.", detail: "Wholesale · warehouses · representatives", url: "https://qutoof-erp-wholesale-demo.pages.dev/", image: "qutoof-erp-dark.webp" },
+        { title: "Qutoof Medi", body: "Clinic and medical center management from appointments and reception to patient records, prescriptions, billing and collections.", detail: "Clinics · medical centers", url: "https://qutoof-clinic-erp-demo.pages.dev/", image: "qutoof-medi-dark.webp" },
+        { title: "Qutoof Cashier", body: "A focused retail POS for stores: fast checkout, invoices and daily operations in a local, secure demo experience.", detail: "Retail · point of sale", url: "https://qutoof-pos-retail-demo.pages.dev/", image: "qutoof-cashier-dark.webp" }
+      ]
     },
     services: {
       kicker: "WHAT WE DO", title: "Digital experiences.<br /><span>Built around your business.</span>",
@@ -79,7 +90,7 @@ export const copy = {
       menuClose: "أغلق قائمة التنقل", home: "الصفحة الرئيسية لقطوف للحلول الرقمية", primaryNav: "التنقل الرئيسي",
       heroVisual: "التكوين البصري لبورتفوليو قطوف", workFilters: "تصفية نماذج الأعمال"
     },
-    nav: { services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "تواصل معنا" },
+    nav: { products: "منتجات قطوف", services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "تواصل معنا" },
     hero: {
       status: "متاح لاستقبال مشاريع جديدة", eyebrow: "تجارب رقمية تُبنى بقصد",
       title: "حلول رقمية<br />تدفع أعمالك إلى <span>الأمام.</span>",
@@ -88,6 +99,17 @@ export const copy = {
       viewWork: "استكشف أعمالنا", contact: "ابدأ مشروعك", proof: "تجارب رقمية. أربعة أنواع. رؤية واحدة.",
       scroll: "مرّر لاكتشاف المزيد", note: "مصممة حول خطوتك القادمة",
       previewStat: "نموذج مختار", breakdown: "بورتفوليو · مواقع · صفحات هبوط · متاجر إلكترونية", signature: "مصمم بهدف"
+    },
+    products: {
+      kicker: "منظومة قطوف", title: "برامج أعمال.<br /><span>مصممة ليومك.</span>",
+      intro: "مجموعة أدوات عربية أولًا للأعمال والفرق التي تدير العمليات اليومية بكفاءة ووضوح.",
+      open: "افتح المنتج", badge: "نموذج حي",
+      items: [
+        { title: "قطوف Business", body: "منظومة SaaS للمشاريع الصغيرة والمتوسطة: كاشير، مخازن، فروع، حجوزات، حسابات، CRM، عيادات، جيم وأكثر.", detail: "منظومة الأعمال المتكاملة", url: "https://qutoof-crm-2.pages.dev/", image: "qutoof-business-dark.webp" },
+        { title: "قطوف ERP", body: "إدارة الجملة والمخازن والمشتريات والأرصدة والفروع والتوزيع ورحلات المناديب من مساحة تشغيل واحدة.", detail: "الجملة · المخازن · المناديب", url: "https://qutoof-erp-wholesale-demo.pages.dev/", image: "qutoof-erp-dark.webp" },
+        { title: "قطوف ميدي", body: "إدارة العيادات والمراكز الطبية من المواعيد والاستقبال إلى ملف المريض والوصفات والفوترة والتحصيل.", detail: "العيادات · المراكز الطبية", url: "https://qutoof-clinic-erp-demo.pages.dev/", image: "qutoof-medi-dark.webp" },
+        { title: "قطوف كاشير", body: "نظام نقاط بيع مركز للمتاجر، يدعم البيع والفواتير والتشغيل اليومي ضمن تجربة محلية وآمنة.", detail: "المتاجر · نقاط البيع", url: "https://qutoof-pos-retail-demo.pages.dev/", image: "qutoof-cashier-dark.webp" }
+      ]
     },
     services: {
       kicker: "ما نقدمه", title: "تجارب رقمية.<br /><span>مصممة حول أعمالك.</span>",
