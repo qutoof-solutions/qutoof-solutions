@@ -41,13 +41,24 @@ export const copy = {
       ]
     },
     work: {
-      kicker: "SELECTED WORK", title: "Eleven live demos.<br /><span>Four kinds of work.</span>",
+      kicker: "SELECTED WORK", title: "Fifteen live demos.<br /><span>Five kinds of work.</span>",
       intro: "Explore the work by format. Each card opens a demo and identifies the kind of experience on display.",
       disclaimer: "These are demo websites and portfolio examples—not verified client results.",
       footer: "Have a project like one of these?", cta: "Ask us on WhatsApp",
-      filters: { all: "All work", portfolio: "Portfolios", landing: "Landing pages", website: "Websites", ecommerce: "E-commerce" },
-      categories: { portfolio: "Portfolio", landing: "Landing page", website: "Website", ecommerce: "E-commerce" }, open: "Open demo"
+      filters: { all: "All work", portfolio: "Portfolios", landing: "Landing pages", website: "Websites", ecommerce: "E-commerce", systems: "Qutoof Systems" },
+      categories: { portfolio: "Portfolio", landing: "Landing page", website: "Website", ecommerce: "E-commerce", systems: "Qutoof Systems" }, open: "Open demo"
     },
+    about: { kicker: "ABOUT US", title: "About us", body: "At Qutoof Digital Solutions, we believe your digital presence is the face of your success. We specialize in designing and developing professional business websites, landing pages, and online stores, alongside integrated cloud systems for managing your business. We do not offer digital marketing services; we focus our efforts on building a strong technical and design foundation that moves you toward your goals." },
+    testimonials: { kicker: "TESTIMONIALS", title: "What people say.", intro: "Placeholder reviews for the layout preview.", items: [
+      { quote: "The portfolio design was highly professional and reflected my identity perfectly. The execution was fast and the follow-up was excellent.", author: "Ahmed M. — Startup founder" },
+      { quote: "An excellent experience creating my online store. The site is fast, responsive, and the dashboard is very easy to use.", author: "Sarah A. — Online store owner" },
+      { quote: "Qutoof Systems saved us a lot of time. Excellent technical support and practical solutions.", author: "Dr. Mahmoud — Medical center manager" }
+    ] },
+    faq: { kicker: "FAQ", title: "Frequently asked questions.", items: [
+      { question: "Do you offer digital marketing services?", answer: "No. We specialize exclusively in programming and development." },
+      { question: "How long does a website or store take?", answer: "It takes between 5 and 14 business days depending on the project size." },
+      { question: "Do you provide technical support after delivery?", answer: "Absolutely. We provide a free support period to ensure stable operation." }
+    ] },
     process: {
       kicker: "THE PROCESS", title: "Sharp thinking.<br /><span>Beautiful execution.</span>",
       intro: "A focused process that turns a rough direction into a clear, responsive and memorable digital experience.",
@@ -75,22 +86,22 @@ export const copy = {
       button: "Start a WhatsApp conversation"
     },
     footer: {
-      tagline: "Thoughtful digital solutions for ambitious businesses.", explore: "EXPLORE", sayHello: "SAY HELLO",
+      tagline: "Digital solutions that move your business forward.", explore: "QUICK LINKS", sayHello: "CONTACT", home: "Home", faq: "FAQ", email: "hello@qutoofsolutions.com", copyright: "© 2026 Qutoof Solutions. All rights reserved.",
       whatsapp: "WhatsApp", startProject: "Start a project", facebook: "Facebook", facebookAria: "Qutoof Solutions on Facebook", location: "Digital solutions, thoughtfully built.",
       top: "Back to top", disclaimer: "Portfolio links are demo websites. No unsupported sales claims or client testimonials are shown."
     }
   },
   ar: {
     meta: {
-      title: "قطوف للحلول الرقمية | حلول رقمية لأعمال طموحة",
-      description: "تطوّر قطوف للحلول الرقمية مواقع وصفحات هبوط ومتاجر إلكترونية وتجارب رقمية مدروسة تساعد الأعمال الطموحة على التقدم."
+      title: "Qutoof للحلول الرقمية | حلول رقمية لأعمال طموحة",
+      description: "تطوّر Qutoof للحلول الرقمية مواقع وصفحات هبوط ومتاجر إلكترونية وتجارب رقمية مدروسة تساعد الأعمال الطموحة على التقدم."
     },
     a11y: {
       skip: "انتقل إلى المحتوى", language: "اختر اللغة", menu: "افتح قائمة التنقل",
-      menuClose: "أغلق قائمة التنقل", home: "الصفحة الرئيسية لقطوف للحلول الرقمية", primaryNav: "التنقل الرئيسي",
-      heroVisual: "التكوين البصري لبورتفوليو قطوف", workFilters: "تصفية نماذج الأعمال"
+      menuClose: "أغلق قائمة التنقل", home: "الصفحة الرئيسية لQutoof للحلول الرقمية", primaryNav: "التنقل الرئيسي",
+      heroVisual: "التكوين البصري لبورتفوليو Qutoof", workFilters: "تصفية نماذج الأعمال"
     },
-    nav: { products: "منتجات قطوف", services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "تواصل معنا" },
+    nav: { products: "منتجات Qutoof", services: "خدماتنا", work: "أعمالنا", process: "منهجنا", approach: "أسلوبنا", contact: "تواصل معنا" },
     hero: {
       status: "متاح لاستقبال مشاريع جديدة", eyebrow: "تجارب رقمية تُبنى بقصد",
       title: "حلول رقمية<br />تدفع أعمالك إلى <span>الأمام.</span>",
@@ -101,14 +112,14 @@ export const copy = {
       previewStat: "نموذج مختار", breakdown: "بورتفوليو · مواقع · صفحات هبوط · متاجر إلكترونية", signature: "مصمم بهدف"
     },
     products: {
-      kicker: "منظومة قطوف", title: "برامج أعمال.<br /><span>مصممة ليومك.</span>",
+      kicker: "منظومة Qutoof", title: "برامج أعمال.<br /><span>مصممة ليومك.</span>",
       intro: "مجموعة أدوات عربية أولًا للأعمال والفرق التي تدير العمليات اليومية بكفاءة ووضوح.",
       open: "افتح المنتج", badge: "نموذج حي",
       items: [
-        { title: "قطوف Business", body: "منظومة SaaS للمشاريع الصغيرة والمتوسطة: كاشير، مخازن، فروع، حجوزات، حسابات، CRM، عيادات، جيم وأكثر.", detail: "منظومة الأعمال المتكاملة", url: "https://qutoof-crm-2.pages.dev/", image: "qutoof-business-dark.webp" },
-        { title: "قطوف ERP", body: "إدارة الجملة والمخازن والمشتريات والأرصدة والفروع والتوزيع ورحلات المناديب من مساحة تشغيل واحدة.", detail: "الجملة · المخازن · المناديب", url: "https://qutoof-erp-wholesale-demo.pages.dev/", image: "qutoof-erp-dark.webp" },
-        { title: "قطوف ميدي", body: "إدارة العيادات والمراكز الطبية من المواعيد والاستقبال إلى ملف المريض والوصفات والفوترة والتحصيل.", detail: "العيادات · المراكز الطبية", url: "https://qutoof-clinic-erp-demo.pages.dev/", image: "qutoof-medi-dark.webp" },
-        { title: "قطوف كاشير", body: "نظام نقاط بيع مركز للمتاجر، يدعم البيع والفواتير والتشغيل اليومي ضمن تجربة محلية وآمنة.", detail: "المتاجر · نقاط البيع", url: "https://qutoof-pos-retail-demo.pages.dev/", image: "qutoof-cashier-dark.webp" }
+        { title: "Qutoof Business", body: "منظومة SaaS للمشاريع الصغيرة والمتوسطة: كاشير، مخازن، فروع، حجوزات، حسابات، CRM، عيادات، جيم وأكثر.", detail: "منظومة الأعمال المتكاملة", url: "https://qutoof-crm-2.pages.dev/", image: "qutoof-business-dark.webp" },
+        { title: "Qutoof ERP", body: "إدارة الجملة والمخازن والمشتريات والأرصدة والفروع والتوزيع ورحلات المناديب من مساحة تشغيل واحدة.", detail: "الجملة · المخازن · المناديب", url: "https://qutoof-erp-wholesale-demo.pages.dev/", image: "qutoof-erp-dark.webp" },
+        { title: "Qutoof ميدي", body: "إدارة العيادات والمراكز الطبية من المواعيد والاستقبال إلى ملف المريض والوصفات والفوترة والتحصيل.", detail: "العيادات · المراكز الطبية", url: "https://qutoof-clinic-erp-demo.pages.dev/", image: "qutoof-medi-dark.webp" },
+        { title: "Qutoof كاشير", body: "نظام نقاط بيع مركز للمتاجر، يدعم البيع والفواتير والتشغيل اليومي ضمن تجربة محلية وآمنة.", detail: "المتاجر · نقاط البيع", url: "https://qutoof-pos-retail-demo.pages.dev/", image: "qutoof-cashier-dark.webp" }
       ]
     },
     services: {
@@ -122,13 +133,24 @@ export const copy = {
       ]
     },
     work: {
-      kicker: "أعمال مختارة", title: "أحد عشر نموذجًا حيًا.<br /><span>أربعة أنواع من الأعمال.</span>",
+      kicker: "أعمال مختارة", title: "خمسة عشر نموذجًا حيًا.<br /><span>خمسة أنواع من الأعمال.</span>",
       intro: "استكشف الأعمال حسب نوعها. تفتح كل بطاقة نموذجًا تجريبيًا وتوضح نوع التجربة المعروضة.",
       disclaimer: "هذه نماذج لمواقع تجريبية وأعمال توضيحية، وليست نتائج موثقة لعملاء.",
       footer: "هل لديك مشروع مشابه؟", cta: "استفسر عبر واتساب",
-      filters: { all: "كل الأعمال", portfolio: "بورتفوليو", landing: "صفحات هبوط", website: "مواقع", ecommerce: "متاجر إلكترونية" },
-      categories: { portfolio: "بورتفوليو", landing: "صفحة هبوط", website: "موقع", ecommerce: "متجر إلكتروني" }, open: "افتح النموذج"
+      filters: { all: "كل الأعمال", portfolio: "بورتفوليو", landing: "صفحات هبوط", website: "مواقع", ecommerce: "متاجر إلكترونية", systems: "أنظمة Qutoof" },
+      categories: { portfolio: "بورتفوليو", landing: "صفحة هبوط", website: "موقع", ecommerce: "متجر إلكتروني", systems: "أنظمة Qutoof" }, open: "افتح النموذج"
     },
+    about: { kicker: "من نحن", title: "من نحن", body: "في Qutoof للحلول الرقمية، نؤمن بأن تواجدك الرقمي هو واجهة نجاحك. نحن متخصصون في تصميم وتطوير المواقع التعريفية، صفحات الهبوط، والمتاجر الإلكترونية الاحترافية، بالإضافة إلى توفير أنظمة سحابية متكاملة لإدارة أعمالك. نحن لا نقدم خدمات التسويق الرقمي، بل نركز كل جهودنا على بناء البنية التقنية القوية." },
+    testimonials: { kicker: "آراء العملاء", title: "ماذا يقول الناس.", intro: "نصوص تجريبية لمعاينة التصميم.", items: [
+      { quote: "تصميم البورتفوليو كان احترافياً جداً وعكس هويتي بشكل ممتاز. التنفيذ كان سريعاً والمتابعة رائعة.", author: "أحمد م. - مؤسس شركة ناشئة" },
+      { quote: "تجربة ممتازة في إنشاء متجري الإلكتروني. الموقع سريع، متجاوب، ولوحة التحكم سهلة.", author: "سارة ع. - صاحبة متجر إلكتروني" },
+      { quote: "أنظمة Qutoof وفرت علينا الكثير من الوقت. دعم فني متميز وحلول عملية.", author: "د. محمود - مدير مركز طبي" }
+    ] },
+    faq: { kicker: "الأسئلة الشائعة", title: "إجابات عن الأسئلة الشائعة.", items: [
+      { question: "هل تقدمون خدمات التسويق الإلكتروني؟", answer: "لا، نحن نتخصص حصرياً في البرمجة والتطوير." },
+      { question: "كم يستغرق تنفيذ الموقع أو المتجر؟", answer: "يتراوح بين 5 إلى 14 يوم عمل حسب حجم المشروع." },
+      { question: "هل تقدمون دعماً فنياً بعد التسليم؟", answer: "بالتأكيد، نقدم فترة دعم فني مجانية لضمان استقرار العمل." }
+    ] },
     process: {
       kicker: "المنهج", title: "تفكير حاد.<br /><span>وتنفيذ جميل.</span>",
       intro: "منهج مركز يحول الاتجاه الأولي إلى تجربة رقمية واضحة ومتجاوبة ولا تُنسى.",
@@ -156,8 +178,8 @@ export const copy = {
       button: "ابدأ محادثة على واتساب"
     },
     footer: {
-      tagline: "حلول رقمية مدروسة للأعمال الطموحة.", explore: "اكتشف", sayHello: "تواصل معنا",
-      whatsapp: "واتساب", startProject: "ابدأ مشروعًا", facebook: "فيسبوك", facebookAria: "صفحة قطوف للحلول الرقمية على فيسبوك", location: "حلول رقمية تُبنى بعناية.",
+      tagline: "حلول رقمية تدفع أعمالك إلى الأمام", explore: "روابط سريعة", sayHello: "تواصل معنا", home: "الرئيسية", faq: "الأسئلة الشائعة", email: "hello@qutoofsolutions.com", copyright: "© 2026 Qutoof Solutions. جميع الحقوق محفوظة.",
+      whatsapp: "واتساب", startProject: "ابدأ مشروعًا", facebook: "فيسبوك", facebookAria: "صفحة Qutoof للحلول الرقمية على فيسبوك", location: "حلول رقمية تُبنى بعناية.",
       top: "العودة للأعلى", disclaimer: "الروابط المعروضة لمواقع ديمو؛ لا نعرض أرقام مبيعات أو شهادات عملاء غير موثقة."
     }
   }

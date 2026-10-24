@@ -116,5 +116,34 @@ export const projects = [
     imageWidth: 1120,
     imageHeight: 800,
     url: "https://landing-page-new-27z.pages.dev/"
+  },
+
+  {
+    category: "systems",
+    title: { en: "Qutoof Business", ar: "Qutoof Business" },
+    description: { en: "An all-in-one operating system for everyday business operations.", ar: "منظومة متكاملة لإدارة عمليات الأعمال اليومية." },
+    image: projectImage("qutoof-business-dark.webp"), imageSrcset: "", imageWidth: 1120, imageHeight: 800,
+    url: "https://qutoof-crm-2.pages.dev/"
+  },
+  {
+    category: "systems",
+    title: { en: "Qutoof ERP", ar: "Qutoof ERP" },
+    description: { en: "Wholesale and warehouse management for growing teams.", ar: "إدارة الجملة والمخازن للفرق والأعمال النامية." },
+    image: projectImage("qutoof-erp-dark.webp"), imageSrcset: "", imageWidth: 1120, imageHeight: 800,
+    url: "https://qutoof-erp-wholesale-demo.pages.dev/"
+  },
+  {
+    category: "systems",
+    title: { en: "Qutoof Clinic", ar: "Qutoof Clinic" },
+    description: { en: "Clinic and medical center management from reception to billing.", ar: "إدارة العيادات والمراكز الطبية من الاستقبال حتى الفوترة." },
+    image: projectImage("qutoof-medi-dark.webp"), imageSrcset: "", imageWidth: 1120, imageHeight: 800,
+    url: "https://qutoof-clinic-erp-demo.pages.dev/"
+  },
+  {
+    category: "systems",
+    title: { en: "Qutoof Cashier", ar: "Qutoof Cashier" },
+    description: { en: "A focused retail point-of-sale system for daily checkout.", ar: "نظام نقاط بيع مركز للمتاجر والتشغيل اليومي." },
+    image: projectImage("qutoof-cashier-dark.webp"), imageSrcset: "", imageWidth: 1120, imageHeight: 800,
+    url: "https://qutoof-pos-retail-demo.pages.dev/"
   }
 ];

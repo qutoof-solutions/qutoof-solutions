@@ -7,8 +7,8 @@ console.log('qutoof solutions v1.0 - loaded');
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 // Egypt number normalized for wa.me: +20 100 278 5919.
-const WHATSAPP_PHONE = "201002785919";
-const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%20Qutoof%20Solutions%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%83%D9%85%20%D9%81%D9%8A%20%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%82%D8%B9%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9%D8%8C%20%D8%B5%D9%81%D8%AD%D8%A7%D8%AA%20%D8%A7%D9%84%D9%87%D8%A8%D9%88%D8%B7%D8%8C%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9%20%D9%88%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A8%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9.%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D9%81%D9%83%D8%B1%D8%A9%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A%20%D9%88%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D9%83%D9%8A%D9%81%20%D9%8A%D9%85%D9%83%D9%86%D9%83%D9%85%20%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%AA%D9%8A.%20%D8%B4%D9%83%D8%B1%D9%8B%D8%A7%20%D9%84%D9%83%D9%85.`;
+const WHATSAPP_PHONE = "201xxxxxxxxx";
+const whatsappUrl = "https://wa.me/201xxxxxxxxx?text=مرحباً،%20اطلعت%20على%20موقع%20Qutoof%20وأرغب%20في%20الاستفسار%20عن%20خدماتكم.";
 let activeProjectFilter = "all";
 
 const iconPaths = {
@@ -107,7 +107,7 @@ function renderLocalizedContent(event) {
   playReveal();
   document.querySelectorAll(".whatsapp-link").forEach((link) => {
     link.href = whatsappUrl;
-    link.setAttribute("aria-label", language === "ar" ? "تواصل مع قطوف عبر واتساب" : "Message Qutoof Solutions on WhatsApp");
+    link.setAttribute("aria-label", language === "ar" ? "تواصل مع Qutoof عبر واتساب" : "Message Qutoof Solutions on WhatsApp");
   });
   const menuButton = document.querySelector(".menu-toggle");
   menuButton.setAttribute("aria-label", document.body.classList.contains("menu-open") ? copy[language].a11y.menuClose : copy[language].a11y.menu);
@@ -117,6 +117,14 @@ function renderLocalizedContent(event) {
 installLanguageSwitch();
 window.addEventListener("qutoof:language-change", renderLocalizedContent);
 applyLanguage(getCurrentLanguage());
+
+document.querySelectorAll(".faq-question").forEach((button) => {
+  button.addEventListener("click", () => {
+    const expanded = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!expanded));
+    button.closest(".faq-item").querySelector(".faq-answer").hidden = expanded;
+  });
+});
 
 document.querySelector(".work-filters").addEventListener("click", (event) => {
   const button = event.target.closest(".work-filter");

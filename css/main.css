@@ -458,3 +458,35 @@ svg { display: block; }
   .product-meta strong { font-size: 16px; }
   .product-description { font-size: 10px; }
 }
+
+
+/* Supporting sections for the extended Qutoof information architecture. */
+.about-section { background: #fff; }
+.about-grid { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1.2fr); align-items: center; gap: clamp(40px, 8vw, 110px); }
+.about-grid .section-heading { margin: 0; }
+.about-copy { max-width: 690px; margin: 0; color: var(--gray); font-size: 15px; line-height: 2; }
+.testimonials-section { background: var(--paper); }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.testimonial-card { min-height: 230px; padding: 25px 22px 22px; }
+.testimonial-mark { display: block; color: var(--green-deep); font-size: 42px; line-height: .7; }
+.testimonial-card p { margin: 20px 0 22px; color: var(--gray); font-size: 13px; line-height: 1.9; }
+.testimonial-card strong { color: var(--ink); font-size: 10px; font-weight: 700; }
+.faq-section { background: #fff; }
+.faq-list { display: grid; gap: 12px; max-width: 900px; margin-inline: auto; }
+.faq-item { overflow: hidden; }
+.faq-item h3 { margin: 0; }
+.faq-question { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 24px; border: 0; color: var(--ink); background: transparent; font: inherit; font-size: 14px; font-weight: 700; text-align: start; cursor: pointer; }
+.faq-plus { color: var(--green-deep); font-size: 24px; font-weight: 400; transition: transform .25s ease; }
+.faq-question[aria-expanded="true"] .faq-plus { transform: rotate(45deg); }
+.faq-answer { padding: 0 24px 22px; }
+.faq-answer p { margin: 0; color: var(--gray); font-size: 12px; line-height: 1.9; }
+.footer-links { align-items: flex-start; }
+.footer-links > div { min-width: 125px; }
+@media (max-width: 780px) {
+  .about-grid { grid-template-columns: 1fr; gap: 22px; }
+  .about-copy { font-size: 14px; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .testimonial-card { min-height: 0; }
+  .faq-question { padding: 19px 18px; font-size: 13px; }
+  .faq-answer { padding: 0 18px 19px; }
+}
