@@ -86,7 +86,7 @@ export const copy = {
       button: "Start a WhatsApp conversation"
     },
     footer: {
-      tagline: "Digital solutions that move your business forward.", explore: "QUICK LINKS", sayHello: "CONTACT", home: "Home", faq: "FAQ", email: "hello@qutoofsolutions.com", copyright: "© 2026 Qutoof Solutions. All rights reserved.",
+      tagline: "Digital solutions that move your business forward.", explore: "QUICK LINKS", sayHello: "CONTACT", home: "Home", faq: "FAQ", email: "qutoofsolutions@gmail.com", copyright: "© 2026 Qutoof Solutions. All rights reserved.",
       whatsapp: "WhatsApp", startProject: "Start a project", facebook: "Facebook", facebookAria: "Qutoof Solutions on Facebook", location: "Digital solutions, thoughtfully built.",
       top: "Back to top", disclaimer: "Portfolio links are demo websites. No unsupported sales claims or client testimonials are shown."
     }
@@ -178,7 +178,7 @@ export const copy = {
       button: "ابدأ محادثة على واتساب"
     },
     footer: {
-      tagline: "حلول رقمية تدفع أعمالك إلى الأمام", explore: "روابط سريعة", sayHello: "تواصل معنا", home: "الرئيسية", faq: "الأسئلة الشائعة", email: "hello@qutoofsolutions.com", copyright: "© 2026 Qutoof Solutions. جميع الحقوق محفوظة.",
+      tagline: "حلول رقمية تدفع أعمالك إلى الأمام", explore: "روابط سريعة", sayHello: "تواصل معنا", home: "الرئيسية", faq: "الأسئلة الشائعة", email: "qutoofsolutions@gmail.com", copyright: "© 2026 Qutoof Solutions. جميع الحقوق محفوظة.",
       whatsapp: "واتساب", startProject: "ابدأ مشروعًا", facebook: "فيسبوك", facebookAria: "صفحة Qutoof للحلول الرقمية على فيسبوك", location: "حلول رقمية تُبنى بعناية.",
       top: "العودة للأعلى", disclaimer: "الروابط المعروضة لمواقع ديمو؛ لا نعرض أرقام مبيعات أو شهادات عملاء غير موثقة."
     }
