@@ -146,15 +146,20 @@ window.addEventListener("scroll", updateHeader, { passive: true });
 updateHeader();
 
 const menuButton = document.querySelector(".menu-toggle");
-menuButton.addEventListener("click", () => {
-  const open = document.body.classList.toggle("menu-open");
-  menuButton.setAttribute("aria-expanded", String(open));
-  menuButton.setAttribute("aria-label", open ? copy[getCurrentLanguage()].a11y.menuClose : copy[getCurrentLanguage()].a11y.menu);
+document.addEventListener("click", (event) => {
+  const toggle = event.target.closest(".menu-toggle");
+  if (toggle) {
+    const open = document.body.classList.toggle("menu-open");
+    menuButton.setAttribute("aria-expanded", String(open));
+    menuButton.setAttribute("aria-label", open ? copy[getCurrentLanguage()].a11y.menuClose : copy[getCurrentLanguage()].a11y.menu);
+    return;
+  }
+  if (event.target.closest(".primary-nav a")) {
+    document.body.classList.remove("menu-open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", copy[getCurrentLanguage()].a11y.menu);
+  }
 });
-document.querySelectorAll(".primary-nav a").forEach((link) => link.addEventListener("click", () => {
-  document.body.classList.remove("menu-open");
-  menuButton.setAttribute("aria-expanded", "false");
-}));
 
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
