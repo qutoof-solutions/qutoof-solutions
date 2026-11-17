@@ -6,6 +6,58 @@ const projectImageSrcset = (stem, widths = [480, 800, 1120]) => widths
 export const projects = [
   {
     category: "ecommerce",
+    title: { en: "HAB & HAIL Coffee Store", ar: "حَبّ وهِيل للقهوة المختصة" },
+    description: {
+      en: "A warm Arabic-first specialty coffee store with offers, subscriptions, and a clear path to checkout.",
+      ar: "متجر عربي دافئ للقهوة المختصة، يعرض العروض والاشتراكات ويوجه العميل بوضوح نحو الشراء."
+    },
+    image: projectImage("hab-hail-800.webp"),
+    imageSrcset: projectImageSrcset("hab-hail"),
+    imageWidth: 1120,
+    imageHeight: 800,
+    url: "https://hab-hail-store.pages.dev/"
+  },
+  {
+    category: "ecommerce",
+    title: { en: "ATHAR Home Fragrance", ar: "ATHAR للعطور المنزلية" },
+    description: {
+      en: "An editorial fragrance storefront built around atmosphere, considered product discovery, and quiet luxury.",
+      ar: "متجر تحريري للعطور المنزلية، يركز على الأجواء واكتشاف المنتجات وإحساس الفخامة الهادئة."
+    },
+    image: projectImage("athar-800.webp"),
+    imageSrcset: projectImageSrcset("athar"),
+    imageWidth: 1120,
+    imageHeight: 800,
+    url: "https://athar-storefront.pages.dev/"
+  },
+  {
+    category: "ecommerce",
+    title: { en: "Lamsa Handmade Accessories", ar: "لمسة للإكسسوارات اليدوية" },
+    description: {
+      en: "A Cairo-made accessories store that gives handmade copper and ceramic pieces a warm, approachable presentation.",
+      ar: "متجر لإكسسوارات مصنوعة في القاهرة، يقدم قطع النحاس والسيراميك اليدوية بحضور دافئ وقريب."
+    },
+    image: projectImage("lamsa-800.webp"),
+    imageSrcset: projectImageSrcset("lamsa"),
+    imageWidth: 1120,
+    imageHeight: 800,
+    url: "https://lamsa-store-a1k.pages.dev/"
+  },
+  {
+    category: "website",
+    title: { en: "Voltique Smart Systems", ar: "Voltique للأنظمة الذكية والطاقة" },
+    description: {
+      en: "A high-trust engineering website for smart-home automation, solar energy, and integrated security systems.",
+      ar: "موقع خدمات هندسية موثوق لأنظمة المنزل الذكي والطاقة الشمسية والحلول الأمنية المتكاملة."
+    },
+    image: projectImage("voltique-800.webp"),
+    imageSrcset: projectImageSrcset("voltique"),
+    imageWidth: 1120,
+    imageHeight: 800,
+    url: "https://voltique-smart-systems.pages.dev/"
+  },
+  {
+    category: "ecommerce",
     title: { en: "Éclat Kitchen Store", ar: "Éclat Kitchen Store" },
     description: {
       en: "A refined Arabic kitchenware storefront with curated collections and a clear shopping experience.",

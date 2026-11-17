@@ -41,7 +41,7 @@ export const copy = {
       ]
     },
     work: {
-      kicker: "SELECTED WORK", title: "Fifteen live demos.<br /><span>Five kinds of work.</span>",
+      kicker: "SELECTED WORK", title: "Nineteen live demos.<br /><span>Five kinds of work.</span>",
       intro: "Explore the work by format. Each card opens a demo and identifies the kind of experience on display.",
       disclaimer: "These are demo websites and portfolio examples—not verified client results.",
       footer: "Have a project like one of these?", cta: "Ask us on WhatsApp",
@@ -133,7 +133,7 @@ export const copy = {
       ]
     },
     work: {
-      kicker: "أعمال مختارة", title: "خمسة عشر نموذجًا حيًا.<br /><span>خمسة أنواع من الأعمال.</span>",
+      kicker: "أعمال مختارة", title: "تسعة عشر نموذجًا حيًا.<br /><span>خمسة أنواع من الأعمال.</span>",
       intro: "استكشف الأعمال حسب نوعها. تفتح كل بطاقة نموذجًا تجريبيًا وتوضح نوع التجربة المعروضة.",
       disclaimer: "هذه نماذج لمواقع تجريبية وأعمال توضيحية، وليست نتائج موثقة لعملاء.",
       footer: "هل لديك مشروع مشابه؟", cta: "استفسر عبر واتساب",
